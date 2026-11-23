@@ -1,0 +1,4 @@
+# Additional dependency for DINOv3. Existing environment: torch 2.14.0, torchvision 0.29.0.
+# No Transformers dependency is needed for this timm implementation.
+timm==1.0.31
+opencv-python-headless==5.1.0.95

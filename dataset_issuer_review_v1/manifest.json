@@ -1,0 +1,446 @@
+{
+  "selection": "Fixed before OCR or inference. At most 12 fake/real pairs per denomination (100, 500, 2000). Order by SHA-256 of issuer-review-v1/42/ plus archive path. Original JPG/PNG, short side at least 64 pixels. Exclude prior manifest families, ambiguous decoded labels, and D4 perceptual hash Hamming distances <=10 to prior guards and between selected photos. See photo sources and hashes below.",
+  "prior_manifests": [
+    "dataset_archive_course_v3/manifest.json",
+    "dataset_archive_pilot_v1/manifest.json",
+    "dataset_archive_pilot_v2/manifest.json",
+    "dataset_cam_replication_v1/manifest.json",
+    "dataset_clean/manifest.json",
+    "dataset_threeclass/manifest.json",
+    "dataset_cam_replication_v1/candidate_manifest_before_review.json"
+  ],
+  "samples": [
+    {
+      "file": "c063cc0b1164968a.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0208.jpg",
+      "source_family": "img-20250717-wa0208",
+      "sha256": "c063cc0b1164968a0b015f746818dc2b4c23288606dd24f6d5632b8a5366207c",
+      "min_prior_phash_distance": 18
+    },
+    {
+      "file": "37a1ec452c4c9b85.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG_1667849774454.jpg",
+      "source_family": "img_1667849774454",
+      "sha256": "37a1ec452c4c9b8571b54e12b16c2f22b02167adb9a6020a63a1a2a118416cd5",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "f522e4b54fe2c415.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0175.jpg",
+      "source_family": "img-20250717-wa0175",
+      "sha256": "f522e4b54fe2c415fbbce9e0ce637b5d909a745beb44e87c40a44f4946e1ad17",
+      "min_prior_phash_distance": 12
+    },
+    {
+      "file": "7d7005ae49b032ad.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG_20180120_122647_HDR.jpg",
+      "source_family": "img_20180120_122647_hdr",
+      "sha256": "7d7005ae49b032ad0a5830c2c099bd1bfaa1b626616fee70ccf042906b0011f2",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "59dd2c06f262cb96.png",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/fake1.png",
+      "source_family": "fake/500/fake1",
+      "sha256": "59dd2c06f262cb960c2ea4cf74d5599a888f0c493a93a6a9a171fde11a54d725",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "fc12003d047f5143.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG_1667885769466.jpg",
+      "source_family": "img_1667885769466",
+      "sha256": "fc12003d047f51430e63553abe5f75cb6b7cca39ff6de463b5dbc08db8bcaf9c",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "7feb7b8e95b46b02.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0209.jpg",
+      "source_family": "img-20250717-wa0209",
+      "sha256": "7feb7b8e95b46b02506c72f047c3ea0f77c79fae0cfae729a3b04b81d57afc65",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "0c7eef8fc7db9614.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG_1667852417655.jpg",
+      "source_family": "img_1667852417655",
+      "sha256": "0c7eef8fc7db9614e44037d778c16179611be9a91aea0823140850dbc2025b20",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "63a2a56bbe43ec6d.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0216.jpg",
+      "source_family": "img-20250717-wa0216",
+      "sha256": "63a2a56bbe43ec6d3fe92f8e6f7c5e8e4cf2b57caa765933da93e756802d249d",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "2408dbf15f6afc72.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/55.jpg",
+      "source_family": "real/500/55",
+      "sha256": "2408dbf15f6afc723101b49dcfa3713b0d9aba93d2a003f60b1e2734532698eb",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "3b04cc60fbf9dca4.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0217.jpg",
+      "source_family": "img-20250717-wa0217",
+      "sha256": "3b04cc60fbf9dca405ca994d398e680bff885d93966059fb9883affa584f5f9b",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "21bff17ba215cd8f.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG20221010133520.jpg",
+      "source_family": "img20221010133520",
+      "sha256": "21bff17ba215cd8fef388683e328bada8c6890998eb507ae75139b3682c540c4",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "ff3e3d1fb2b9e52c.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0199.jpg",
+      "source_family": "img-20250717-wa0199",
+      "sha256": "ff3e3d1fb2b9e52cc799a068d6121d0d48dd58e17e12d36c6ed40fd0ccacd65f",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "71dc1711d0e63fa5.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG_1667885816240.jpg",
+      "source_family": "img_1667885816240",
+      "sha256": "71dc1711d0e63fa52759a3057e72aefcef8b6195f9be3769db29d47a0d8c4f2a",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "142aea881ab37575.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0174.jpg",
+      "source_family": "img-20250717-wa0174",
+      "sha256": "142aea881ab37575960d6738feb12f5e0b653e9cf0080926a65a8edf9972e177",
+      "min_prior_phash_distance": 12
+    },
+    {
+      "file": "22fae0358c073985.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG_1667891223500.jpg",
+      "source_family": "img_1667891223500",
+      "sha256": "22fae0358c073985bd756ca68101fb11bf020869a64b25581fbd413a93bdd5ee",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "42bdcadfb8170a92.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0194.jpg",
+      "source_family": "img-20250717-wa0194",
+      "sha256": "42bdcadfb8170a9222c4291bfc1dd1a56d20edde717128705385afb110e957e9",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "e08e9c7b65cb2989.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG_1667892121612.jpg",
+      "source_family": "img_1667892121612",
+      "sha256": "e08e9c7b65cb298913c22214b0f435e64127e2270b3157893a835507d6e4ebf2",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "11fcd4bb70814a9b.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0223.jpg",
+      "source_family": "img-20250717-wa0223",
+      "sha256": "11fcd4bb70814a9b5b2e8f8103ee82cc56877e0e579abdb679e5822afe187c3c",
+      "min_prior_phash_distance": 18
+    },
+    {
+      "file": "aae8a9a908d5fb19.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG20221010133213.jpg",
+      "source_family": "img20221010133213",
+      "sha256": "aae8a9a908d5fb19883a73820d09908839f1bac00235b9974dba9b2b1c1b813a",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "d886c8a044614dc0.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0192.jpg",
+      "source_family": "img-20250717-wa0192",
+      "sha256": "d886c8a044614dc051b23270f168207a3183f519ee7dde714186bc7b05b42549",
+      "min_prior_phash_distance": 18
+    },
+    {
+      "file": "167fda6c6a73405e.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG_1667850308891.jpg",
+      "source_family": "img_1667850308891",
+      "sha256": "167fda6c6a73405ecbc78adbc3f7d15e4c355e6423b7da91fe3e2399555769e8",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "b4d7c40fac8c1441.jpg",
+      "folder_label": "fake",
+      "denomination": 500,
+      "source_path": "archive/data/data/fake/500/IMG-20250717-WA0220.jpg",
+      "source_family": "img-20250717-wa0220",
+      "sha256": "b4d7c40fac8c1441ac8b6167bec4aa053bef5b4e460854f780bac926a4d466d2",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "4596d69b53f81909.jpg",
+      "folder_label": "real",
+      "denomination": 500,
+      "source_path": "archive/data/data/real/500/IMG-20220928-WA0102.jpg",
+      "source_family": "img-20220928-wa0102",
+      "sha256": "4596d69b53f8190948e58ad653b27be71e786a8ce10c1a3e670ea7d578dfd695",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "a9284ef01204e0d4.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-15 104454.png",
+      "source_family": "screenshot 2025-10-15 104454",
+      "sha256": "a9284ef01204e0d43acbf64d6fcc3b72be34bc087cd2cefe1f54b09bba95065b",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "b94f8d09e3a6a685.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/35.jpg",
+      "source_family": "real/2000/35",
+      "sha256": "b94f8d09e3a6a68502513fc6de20a7ccf4e738ddfcc7e66bfd1ff3db6cd16b0a",
+      "min_prior_phash_distance": 18
+    },
+    {
+      "file": "91571e1956b3a85c.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144602.png",
+      "source_family": "screenshot 2025-10-13 144602",
+      "sha256": "91571e1956b3a85c0d41ecef8c5cdb0d38c0019308d9702b818496be22093a3a",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "a408142ac5a66413.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/2.jpg",
+      "source_family": "real/2000/2",
+      "sha256": "a408142ac5a6641365b4d8481fc749cd5aa649445c374de1343e49b46bc2a52a",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "bf3db6c7a629c001.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105932.png",
+      "source_family": "screenshot 2025-10-12 105932",
+      "sha256": "bf3db6c7a629c0019ae8b0953dfb7bb888fc4c3cbb046fa9c7757f8bdfc9b2e4",
+      "min_prior_phash_distance": 12
+    },
+    {
+      "file": "6fd2231e440d077d.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/IMG_20180120_121401_HDR.jpg",
+      "source_family": "img_20180120_121401_hdr",
+      "sha256": "6fd2231e440d077d2b09c6c012b0524c3ef3efba25fa88bbab6044c643c5cf2c",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "f26373c6bbd1d7b8.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110059.png",
+      "source_family": "screenshot 2025-10-12 110059",
+      "sha256": "f26373c6bbd1d7b8f6f7ee1600ede98bfe26845a4a1696cdbac8f6619ad957a9",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "e2ad299a6af63845.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/IMG_1667830642222.jpg",
+      "source_family": "img_1667830642222",
+      "sha256": "e2ad299a6af6384589d60c289f4a5aa2d8fffc72ff592daf5c3eaf16647ff965",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "ba87ed02f503abb5.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110115.png",
+      "source_family": "screenshot 2025-10-12 110115",
+      "sha256": "ba87ed02f503abb55b56a334d7cdd4083eaa1c6af15008221fd7392e2ae1227a",
+      "min_prior_phash_distance": 18
+    },
+    {
+      "file": "85c78eb54ab6dfdb.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/86.jpg",
+      "source_family": "real/2000/86",
+      "sha256": "85c78eb54ab6dfdb01ae7af6e8750ea39cbcddea2d0ece8761f248dabc3defe4",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "9ca5e6a9db306a41.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110308.png",
+      "source_family": "screenshot 2025-10-12 110308",
+      "sha256": "9ca5e6a9db306a41aa1d0bd9ffe487ca55d078f0249f977f8e462aca97960941",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "05ee907f83a8b3dd.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/IMG_20180120_121900_HDR.jpg",
+      "source_family": "img_20180120_121900_hdr",
+      "sha256": "05ee907f83a8b3ddc005724db4340f60151ffd5f0dfa0a08250cdfad445d6c6f",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "ff2988148537eb12.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-15 104511.png",
+      "source_family": "screenshot 2025-10-15 104511",
+      "sha256": "ff2988148537eb12d3954caf5d6465b80bbccd0fa1c1255bae2cea69a477d39b",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "03e0ab0f08cca64a.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/IMG_1667830356934.jpg",
+      "source_family": "img_1667830356934",
+      "sha256": "03e0ab0f08cca64aaa818110dbed4c734d0695a6638ba21d55c273e65948ffb4",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "b96c7328e2220f5f.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-13 143915.png",
+      "source_family": "screenshot 2025-10-13 143915",
+      "sha256": "b96c7328e2220f5f638a2056839904e5b2a52f5ed64f6e0f8360fd4f0df714c9",
+      "min_prior_phash_distance": 12
+    },
+    {
+      "file": "aeff953904d74551.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/IMG_20180120_121720.jpg",
+      "source_family": "img_20180120_121720",
+      "sha256": "aeff953904d745517bea2bc65bd20709fd6c86bc2785cfe847fd6286b23e63a4",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "009e002504f63efb.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110228.png",
+      "source_family": "screenshot 2025-10-12 110228",
+      "sha256": "009e002504f63efb9cd67904e1fd2961a62160dca69e79a451f60e98abd78b16",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "705b357e7765ebd1.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/IMG_1667830707283.jpg",
+      "source_family": "img_1667830707283",
+      "sha256": "705b357e7765ebd1ef5682b9b59517369c75953ed4f8889d4f59efc4c7f75f3d",
+      "min_prior_phash_distance": 12
+    },
+    {
+      "file": "c1cd80847e940843.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110446.png",
+      "source_family": "screenshot 2025-10-12 110446",
+      "sha256": "c1cd80847e94084359646234faaee522a6b956970a9ee7551d3664f6f65ea701",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "efe7f7e9a5f15dc6.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/0.jpg",
+      "source_family": "real/2000/0",
+      "sha256": "efe7f7e9a5f15dc6cd4d8e4b9e1ec643b281f2f22f56aa3c7fa7f6937b204277",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "2c41305ceb52c056.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110329.png",
+      "source_family": "screenshot 2025-10-12 110329",
+      "sha256": "2c41305ceb52c0567320e7d7eb2cd9f26b0dcc7310f804a8d95e1425ddc15e8c",
+      "min_prior_phash_distance": 12
+    },
+    {
+      "file": "642547ae341ecc8e.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/42.jpg",
+      "source_family": "real/2000/42",
+      "sha256": "642547ae341ecc8ec61f2ef71a55b3eb6bacc0e5268eae63b374f4ab6abd2300",
+      "min_prior_phash_distance": 16
+    },
+    {
+      "file": "a279459d9142b8d3.png",
+      "folder_label": "fake",
+      "denomination": 2000,
+      "source_path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144510.png",
+      "source_family": "screenshot 2025-10-13 144510",
+      "sha256": "a279459d9142b8d3cb9d84422b873ce5b33cdf4f801cd480718e895a93de8597",
+      "min_prior_phash_distance": 14
+    },
+    {
+      "file": "ca22479ba7fa7e73.jpg",
+      "folder_label": "real",
+      "denomination": 2000,
+      "source_path": "archive/data/data/real/2000/IMG_20180120_121514_HDR.jpg",
+      "source_family": "img_20180120_121514_hdr",
+      "sha256": "ca22479ba7fa7e73eb9820b6383f2d37fea8efaf48ccb40aed584a37f49690d6",
+      "min_prior_phash_distance": 16
+    }
+  ]
+}

@@ -1,0 +1,4898 @@
+{
+  "seed": 20261121,
+  "class_to_idx": {
+    "fake money": 0,
+    "OR money": 1,
+    "not a banknote": 2
+  },
+  "counts": {
+    "train": {
+      "fake money": 83,
+      "OR money": 82,
+      "not a banknote": 22
+    },
+    "val": {
+      "fake money": 17,
+      "OR money": 17,
+      "not a banknote": 4
+    },
+    "test": {
+      "fake money": 24,
+      "OR money": 25,
+      "not a banknote": 4
+    }
+  },
+  "samples": [
+    {
+      "path": "archive/data/data/fake/10/aug_395_WhatsApp Image 2025-04-05 at 10.55.45.jpeg",
+      "class_name": "fake money",
+      "denomination": "10",
+      "split": "train",
+      "sha256": "3013738dc9732936ee552a1dfd4bc0dcb7823648420708c954a7bd3547620565",
+      "pixel_hash": "d6cd6fb2a515b813934bc172e8e61d9d2a12c47a20234eb11f59ed4c0fb20f0d",
+      "size": [
+        200,
+        400
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.55.45",
+      "group_id": "96f12c6cd5d30aca73402d29",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/10_3013738dc9732936.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/10/aug_350_WhatsApp Image 2025-04-05 at 10.48.47.jpeg",
+      "class_name": "fake money",
+      "denomination": "10",
+      "split": "test",
+      "sha256": "7aced8b033e23ed4ad52ce5a67edc37be609387ce32ed4f85fe974bf6958dc3c",
+      "pixel_hash": "03f053495c211f677963c740541e51e840e459172371a81dea4198728d534253",
+      "size": [
+        200,
+        387
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.48.47",
+      "group_id": "c828141deacdfb466ca9e3c8",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/10_7aced8b033e23ed4.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/10/aug_575_WhatsApp Image 2025-04-05 at 10.55.46 (1).jpeg",
+      "class_name": "fake money",
+      "denomination": "10",
+      "split": "train",
+      "sha256": "4918e7d358e678d28aed10b49a72ae8987fe524730f517b737403b242f1c060f",
+      "pixel_hash": "f68269874b89b805e5d020594579cd5a893c938f70ea333d3d5aea7540809354",
+      "size": [
+        100,
+        100
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.55.46",
+      "group_id": "dd9f4482e3a950874a894df7",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/10_4918e7d358e678d2.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/20/aug_1825_WhatsApp Image 2025-04-05 at 10.59.13.jpeg",
+      "class_name": "fake money",
+      "denomination": "20",
+      "split": "train",
+      "sha256": "31915758d6c41d64b1041e59d46cc05a773f389c5ad7083fec1418693d355221",
+      "pixel_hash": "e49d7b5fd80406ed5939181708afe35cbb62567cda60c97377e6887fc6f15972",
+      "size": [
+        200,
+        397
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.59.13",
+      "group_id": "7c6ce23832d3c1208842f444",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/20_31915758d6c41d64.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/20/aug_825_WhatsApp Image 2025-04-05 at 10.48.36.jpeg",
+      "class_name": "fake money",
+      "denomination": "20",
+      "split": "train",
+      "sha256": "8fbf8fc7a91a0ad9cfedf1b137f4cbbeb62bddada41650f135bbf23f4e6eab76",
+      "pixel_hash": "69838aa2f5059f9a55008b19f518027e8c46824a0210e9608af10c965596a3ee",
+      "size": [
+        100,
+        100
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.48.36",
+      "group_id": "d82a25fde7866ab30859234d",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/20_8fbf8fc7a91a0ad9.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/100/aug_723_WhatsApp Image 2025-04-05 at 10.59.21.jpeg",
+      "class_name": "fake money",
+      "denomination": "100",
+      "split": "train",
+      "sha256": "62e96fa3a52b9bab26236eb471f89bba123d49d2b0c664055b56d77c7402a63c",
+      "pixel_hash": "a2273dd533c99901fe660b90037e0b285b7929584c03d2305f6e9dd47ceca282",
+      "size": [
+        100,
+        100
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.59.21",
+      "group_id": "101eb0500a8d6da5170baeb2",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/100_62e96fa3a52b9bab.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/100/Screenshot 2025-04-05 at 11.24.51ÔÇ»AM.png",
+      "class_name": "fake money",
+      "denomination": "100",
+      "split": "train",
+      "sha256": "8655d4b4b64de3cd1e093a5d7ae4cbd27d5a028f660b9591530df75ecf231e38",
+      "pixel_hash": "b716362b94cf02af177748d7ee0ad92cb510f5b4403c696514d6ec563a1623d1",
+      "size": [
+        756,
+        228
+      ],
+      "source_family": "screenshot 2025-04-05 at 11.24.51ôç»am",
+      "group_id": "7c4348d0d14c199fe7a4805f",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/100_8655d4b4b64de3cd.png"
+    },
+    {
+      "path": "archive/data/data/fake/100/aug_1588_WhatsApp Image 2025-04-05 at 10.48.43.jpeg",
+      "class_name": "fake money",
+      "denomination": "100",
+      "split": "val",
+      "sha256": "bd44d8fb942fc45fe016b808470ae4734f119165eee67eaa41e9520d4918bb25",
+      "pixel_hash": "3e2ed0d0f3a35dcca3cfeae70707def40f2e4a51e7f491eaafc1f3464d1aa2ba",
+      "size": [
+        100,
+        100
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.48.43",
+      "group_id": "9c9f0a616378ccdf981381f2",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/100_bd44d8fb942fc45f.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/100/aug_1382_WhatsApp Image 2025-04-05 at 10.59.15.jpeg",
+      "class_name": "fake money",
+      "denomination": "100",
+      "split": "train",
+      "sha256": "d8c0cd7698ea9e323888e07da69d77a70a5d1e63e1f8fefe737f16ceede7755e",
+      "pixel_hash": "4093ae00b1d47648ff6b0e5cbb0b3cf9efb27df3a2ce603e5c93bdc6abb34701",
+      "size": [
+        100,
+        100
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.59.15",
+      "group_id": "a3976b20bd436660b5ecd191",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/100_d8c0cd7698ea9e32.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/100/Screenshot 2025-04-05 at 11.24.48ÔÇ»AM.png",
+      "class_name": "fake money",
+      "denomination": "100",
+      "split": "test",
+      "sha256": "4b6f91bfcd036823999f94847002c0a83f52b9afc626ae4ce376a8b183b24ad8",
+      "pixel_hash": "2256a0c7329b6b092815a39f842554594331ba30403fa4223981f40721629421",
+      "size": [
+        1048,
+        594
+      ],
+      "source_family": "screenshot 2025-04-05 at 11.24.48ôç»am",
+      "group_id": "ba941ca890678dc3c2005d43",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/100_4b6f91bfcd036823.png"
+    },
+    {
+      "path": "archive/data/data/fake/100/fake2.png",
+      "class_name": "fake money",
+      "denomination": "100",
+      "split": "train",
+      "sha256": "32930e5e224a6ac0c024f9687ca88381a5fece2c53f2d600c69fb62bb526baac",
+      "pixel_hash": "7de2e822b4d01d77da612fdc3b513ae9d2b82b0f94212b359c1e83cad169aadf",
+      "size": [
+        588,
+        758
+      ],
+      "source_family": "fake/100/fake2",
+      "group_id": "bca981c3e98926f5d6f8a052",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/100_32930e5e224a6ac0.png"
+    },
+    {
+      "path": "archive/data/data/fake/200/Screenshot 2025-04-05 at 11.21.22ÔÇ»AM.png",
+      "class_name": "fake money",
+      "denomination": "200",
+      "split": "train",
+      "sha256": "e8f66abcbec0b694383931efb95dacf5567cb802a052705e0f0dda77fc13c01d",
+      "pixel_hash": "0daae60e073ecd89b39991ad9de0b91c1fbce444cfc76d8ed54d67af8f49dd08",
+      "size": [
+        492,
+        588
+      ],
+      "source_family": "screenshot 2025-04-05 at 11.21.22ôç»am",
+      "group_id": "244020bf188936552758dd2a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/200_e8f66abcbec0b694.png"
+    },
+    {
+      "path": "archive/data/data/fake/200/Screenshot 2025-04-05 at 11.20.55ÔÇ»AM.png",
+      "class_name": "fake money",
+      "denomination": "200",
+      "split": "train",
+      "sha256": "88a87750f54a9d74c6392223da0d1f70ac691d5896d9080a62a07cee3da8f47e",
+      "pixel_hash": "b9aac4e40dd7c55252d56f5286928cf7f9272bd1ac40afaa1b697ed41e33814b",
+      "size": [
+        446,
+        820
+      ],
+      "source_family": "screenshot 2025-04-05 at 11.20.55ôç»am",
+      "group_id": "a228a17f59deb6dc160f312b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/200_88a87750f54a9d74.png"
+    },
+    {
+      "path": "archive/data/data/fake/200/aug_1730_WhatsApp Image 2025-04-05 at 10.55.44 (1).jpeg",
+      "class_name": "fake money",
+      "denomination": "200",
+      "split": "train",
+      "sha256": "cdd6aeb0843d2e25e1317a17c287b83ae01cc5f42b3d650b710afee29706725d",
+      "pixel_hash": "ca16c126e01147909beaabe1695ede026293b2497723cf6c73d2811193d50b27",
+      "size": [
+        100,
+        100
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.55.44",
+      "group_id": "e5c8cf24b0d3c43fe055c344",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/200_cdd6aeb0843d2e25.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/500/demo-7.avif",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "dfb3f32c14f76eafbd7de767dc2817c9479dee3286d3abf5099c718787297c0a",
+      "pixel_hash": "4ea9a1b46d23efd2e175e1e1aef53cddd9f3660c95d66c82ffc6124911489118",
+      "size": [
+        1200,
+        900
+      ],
+      "source_family": "fake/500/demo-7",
+      "group_id": "00fe9ebf010d57c89d045700",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_dfb3f32c14f76eaf.avif"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0170.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "7847fd4f7aca7625e9be3412879629b78f77ad935d5bd4b32fe5846c9a967fc1",
+      "pixel_hash": "2060c1b38bcd400e8e2e54089ed8ccb489a203f8cfcb3fc116134aca2f12d96f",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0170",
+      "group_id": "0146428c3dd1e6b894331924",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_7847fd4f7aca7625.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0226.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "c17df657f91d31ce44da127003e7aecdb156c56e5fcaf5440db2f090a893c62e",
+      "pixel_hash": "1c8a3b7fc5c38d08beef0b6d3176c036b9de5b2e7bee70da4113ff0ddb32fddb",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0226",
+      "group_id": "0a14e6fc9ea0ce02db15f3fe",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_c17df657f91d31ce.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0186.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "4f4bce2bc381829d1f4cbf0f00372a908133a0b270bb96a5ff5f19e9e81f7f82",
+      "pixel_hash": "f1db4b06e249cc18ba211c713fd2267995be4025aef51383695ab8dafe673cb5",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0186",
+      "group_id": "0a2bba87c201c79db3152728",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_4f4bce2bc381829d.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0181.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "9c3354f674725e4a3e6e6e0714083c663a007f8234befe76054b4f7e5c2a6253",
+      "pixel_hash": "2e498796c7d75870d4b224196a4105e6161de68d3331186a9baf79f72868884d",
+      "size": [
+        1280,
+        1038
+      ],
+      "source_family": "img-20250717-wa0181",
+      "group_id": "0b2effee34b9854ba24925e5",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_9c3354f674725e4a.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0211.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "84a39417190f438bd381ba7a779c945bc2b9d60e4faae55506e8c0c47cf71c18",
+      "pixel_hash": "7cb7ac4a1824f759234dd0c2ffde7c36116275916f5bc4e34bb3b5dc022386d6",
+      "size": [
+        927,
+        1280
+      ],
+      "source_family": "img-20250717-wa0211",
+      "group_id": "0e20a8fad060d24747798cb8",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_84a39417190f438b.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/71Fuy9SG3sdafsadfsdafnL._SL1500_.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "fe6b3b5531089809b8f88d82edc09fb02628fad13416952d0ae9a4ffa9505fe0",
+      "pixel_hash": "b980e0c7250508668169974d6a8c7f1eefc95c305886c0378a0d983f7e53644a",
+      "size": [
+        852,
+        369
+      ],
+      "source_family": "fake/500/71fuy9sg3sdafsadfsdafnl._sl1500_",
+      "group_id": "118a4ee7cfb4cb2ac0d4ad72",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_fe6b3b5531089809.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0236.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "450311d5703a30a3e79a25428d2e92c72545d4be1ebcfb1f7ebe874e47cec546",
+      "pixel_hash": "03ec5a60f6f210adb08818fbf8213672de4cd9474f7da8407a9cf1154e9642be",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0236",
+      "group_id": "1398296b3462bc5e37a796c1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_450311d5703a30a3.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/images.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "d8d99970e7c7cb024aa88d53b25bda319bda75372c25d8db293767635b17c584",
+      "pixel_hash": "df3e76ad1a97412bdf7644d7b9c40dc4e153896d16b43e31002a82b5c14d88d1",
+      "size": [
+        310,
+        163
+      ],
+      "source_family": "fake/500/images",
+      "group_id": "1642cb48cfc9faacd350fe01",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_d8d99970e7c7cb02.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0129.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "9334ecfc0e857d65b1d966d7733472849bb90733b6acc3bcf94ed55b61fde858",
+      "pixel_hash": "285626183182bf74905fa84fec429df3126d092ede2a20a0cf99acf697f96a55",
+      "size": [
+        225,
+        225
+      ],
+      "source_family": "img-20250717-wa0129",
+      "group_id": "168c441ed4176c1a9d25f3c9",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_9334ecfc0e857d65.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/aug_1000_WhatsApp Image 2025-04-05 at 10.48.42.jpeg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "24880d59f299f61f0fe416e737c4b4d0d24f3e692c96577d4b0501e07b93a48e",
+      "pixel_hash": "1e9ddbe2eb6b7f71f519bf30f1bc80586011af952b69ff018ee8e769c92f983a",
+      "size": [
+        200,
+        387
+      ],
+      "source_family": "whatsapp image 2025-04-05 at 10.48.42",
+      "group_id": "1e5d7fa14155c8a8b8b3e001",
+      "is_augmented": true,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_24880d59f299f61f.jpeg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0179.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "3080427306d87fd6c951039dc0e622d6aae55ea9d1e7a76d4a6acc5b30019777",
+      "pixel_hash": "8a099a923a38c18faef5a120e9c38a7ac496b55868041c25c1ff3e5ac05ca834",
+      "size": [
+        717,
+        1280
+      ],
+      "source_family": "img-20250717-wa0179",
+      "group_id": "1ea4f5c556ed872191479307",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_3080427306d87fd6.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0136.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "0ab3c888d2ee7a67fd784614b70a1890bcd873624eafc300ea454f13c15721d1",
+      "pixel_hash": "0e5645d7812363c3cf380c4ec53400e1525fb5963bdda7c5fe975e2fdf9eda16",
+      "size": [
+        219,
+        230
+      ],
+      "source_family": "img-20250717-wa0136",
+      "group_id": "1eb9134d96c7883b7e72eb1a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_0ab3c888d2ee7a67.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0167.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "2ca940b910fbcbd569202f683667742c30684cbca78c3ee365bd1b506cce7454",
+      "pixel_hash": "98ad85584c3bd2a06356b4b59d494d2a1c30a47f8e5be63ed628064d1300503f",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0167",
+      "group_id": "2061ffb9c513f3817dc8cf7f",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_2ca940b910fbcbd5.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0196.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "af665e407288e296e80ceb5170bf1fd9ff19da91338a6f4cf345787f7d29e528",
+      "pixel_hash": "8b84b5b76ac8c63dc25c2223084e2482f7626e16bd96ba16fbed719834390ad3",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0196",
+      "group_id": "2303eb4dfc5e432fbbf9759a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_af665e407288e296.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0133.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "2792e23b8617cb4c8ef509a59f2ff971dd69c8ed859cd1002d539ea1ce779380",
+      "pixel_hash": "f9a7365709d9de129faccb6b65c86235079cba78362c646e780d3dfba9dda88b",
+      "size": [
+        219,
+        230
+      ],
+      "source_family": "img-20250717-wa0133",
+      "group_id": "242ee8b101e20a8134648512",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_2792e23b8617cb4c.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/61nlqvpl-dL._UF10001000_QL80_.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "5abad1433f4733250b481a1ab1fa5d12fd524bdfe3d8bb09d8663cbf1c7ff3af",
+      "pixel_hash": "76de6050a7c4d2f4020e4482a9651568bad11264f9eddcc405b727494bd5a988",
+      "size": [
+        1000,
+        990
+      ],
+      "source_family": "fake/500/61nlqvpl-dl._uf10001000_ql80_",
+      "group_id": "25fbbbe6ace86ad6602fac06",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_5abad1433f473325.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0141.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "b96c99b793de7fb315cc8b419e85368c2ac771f0ddaee53fabf669b929ebe4df",
+      "pixel_hash": "0d76a4961b5ba43efdc890a87235187d86ecb979288513adc4f972efe8bcde57",
+      "size": [
+        712,
+        1600
+      ],
+      "source_family": "img-20250717-wa0141",
+      "group_id": "29ada6153174503ca3c8b063",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_b96c99b793de7fb3.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0202.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "9ac8f9762a17d18769a5da0cb5a744161290ae334a73c2a2e08a9578f45104b4",
+      "pixel_hash": "dc3be49f6631a840eb3d67e0127da1759b95e1ff055c490ec4e06135d1119494",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0202",
+      "group_id": "2b740e7a7e5c0b0bc48ab251",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_9ac8f9762a17d187.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0187.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "864492f66f41d90ed46561fb4ee46056d2381fed8dc7e0a9b457d1f4a83e0a19",
+      "pixel_hash": "75a11dc695000050ca51ded351f6584508e42351e853520ce13046679b3b45b5",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0187",
+      "group_id": "2c72fb4c4fd9cc26635042a1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_864492f66f41d90e.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0207.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "2511aacbeaef9a99283458e4bf0ee56ac04a657c19f84955375ebcb0374cfb0b",
+      "pixel_hash": "2fd82a28ed8a233a95cbbcdf16a6f20c732ff69d100eee05573791b53b5cdc55",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0207",
+      "group_id": "2ffd32953c96856b8b6f0b81",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_2511aacbeaef9a99.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0189.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "f442b9261e99f7ade8b792b76ebfce77bed6175508f5e0473155b88c25e790b3",
+      "pixel_hash": "825e824952667611674412485de22cb91ff97fe4b069e4ea7183fa2de562ba36",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0189",
+      "group_id": "355a1273a762a41fa214537a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_f442b9261e99f7ad.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/500_f1.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "123ae438a634d7f5de267e680f0baeb6287c7190bddd4fefb7cd6544a82a863c",
+      "pixel_hash": "3972dfd7021d0ce3a9cd7ef2a37ae0433aa4fecf9696d77911abf141aa01434e",
+      "size": [
+        1746,
+        750
+      ],
+      "source_family": "fake/500/500_f1",
+      "group_id": "3732c0f562f3e0ae5b9e5139",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_123ae438a634d7f5.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0163.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "77dddea6733aac092f0805c40ce68f28c90ca8a244cc90468a44e090d20df70b",
+      "pixel_hash": "af3a5a0440e6e2465ebff559809e9bb8918cad3e6463e841127b2aae6df4a9df",
+      "size": [
+        779,
+        1280
+      ],
+      "source_family": "img-20250717-wa0163",
+      "group_id": "37bed1eaf9e8fb60533a23cd",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_77dddea6733aac09.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0157.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "b158b350192248ae759ba4eedecf9dca5f0db5a88e8c16a3be80bb0177d1c6c5",
+      "pixel_hash": "9a9f1802d9d663b11363b570b8d7231db146b33ea8d986a9e5b1ba846f6a3315",
+      "size": [
+        799,
+        1280
+      ],
+      "source_family": "img-20250717-wa0157",
+      "group_id": "3923be3c1ae5e9c89fd7fb0d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_b158b350192248ae.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0233.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "83791a9c1cfbf983300399e650d384748745552eee1fdafb431853a95bc4e736",
+      "pixel_hash": "363d2bf2bbb9e212a36e7552e6889ee95bbde16fa60d239085ee3af8446a9e3b",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0233",
+      "group_id": "3ad0c3b36b74eae76935ce7b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_83791a9c1cfbf983.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0214.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "519710e042c71ba4fa4fedc51f66e59eda326193826a01aa15d696b0526773c1",
+      "pixel_hash": "f5c1232753af8f042e6b2bad523a6368bd15240b715752283e47340499324db8",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0214",
+      "group_id": "3b97fd47454aa8200c349b0e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_519710e042c71ba4.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0132.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "957ff2c2e06d7ff9bffce278872de0ba064eb40d092b97ca6a85b81babc37b55",
+      "pixel_hash": "bdb869546367a915243c165d3d42460310f4a94e7a8c77c7e7d71d439e7f4396",
+      "size": [
+        242,
+        207
+      ],
+      "source_family": "img-20250717-wa0132",
+      "group_id": "3d74de0e529a558f9914ec35",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_957ff2c2e06d7ff9.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0198.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "794608e5239498a4a1bef8d8a9a16841ceab365e93e09f4d5c09c05732b2115f",
+      "pixel_hash": "170a8e72d24806b9d17d3be189d24e79ed888985a7dce34e4f24520abed100d8",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0198",
+      "group_id": "3f6c41c0afe0d2cefaf4fde1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_794608e5239498a4.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0144.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "92c7017763de5a1b77709e31a8c00b411752e073ee03c68da191a9289f3c7db8",
+      "pixel_hash": "d3ed98013bf8129948690c575f3578379969e777e4c4cf904bd55bd02b79941d",
+      "size": [
+        1200,
+        1600
+      ],
+      "source_family": "img-20250717-wa0144",
+      "group_id": "416f8ae8db9dc2d63869ad4e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_92c7017763de5a1b.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0237.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "9fae76d81c6582b18fbb6dbc618fd0da40167c9cea65f360d36a47bfc6fb7949",
+      "pixel_hash": "83497f5641384642908835b983f5b02dd58754f4c7ff2d19bf6422abedbd59e0",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0237",
+      "group_id": "4212e52c6f644a65d54f92c0",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_9fae76d81c6582b1.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/500_f2.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "58634fc2149375c420269a1fed6766d5f50cc778def7f08906ce603321be9a01",
+      "pixel_hash": "93df41aa1e815599f819498e33fc7a6d2025eadef328fdb1886da70f971648f9",
+      "size": [
+        1167,
+        519
+      ],
+      "source_family": "fake/500/500_f2",
+      "group_id": "424b261d06150e121afcc8e7",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/500_58634fc2149375c4.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0156.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "d6d42f3f343a52b21977ec58ad8585de0bab6a02872fe1ea93f9ce3f2902d165",
+      "pixel_hash": "fa87cc80a93ddee201bd07b5c906aac8062a619fe5f847ed45363569d67e52a4",
+      "size": [
+        911,
+        1280
+      ],
+      "source_family": "img-20250717-wa0156",
+      "group_id": "4351e5a36d45617f4dc46295",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_d6d42f3f343a52b2.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0201.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "3612554d0921ab1b4a5058dcf0f77e61145c62179c3b251247e3832464411578",
+      "pixel_hash": "fd4e2e5b4bc1c1f8b147591020ee90a33b7dae3eeb63933cd61df9c0b5205cac",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0201",
+      "group_id": "46389c09834effb96fabd020",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_3612554d0921ab1b.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0230.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "4b6cec7f74e7d4b63f07eb18aa2d4bd3b33ff81c43b2f21665e6af39076fe7ea",
+      "pixel_hash": "e358582cc5ad6fe01454aec162d056a1819ad12cdaf5b1c2092c1842a6a1cbd5",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0230",
+      "group_id": "48dfb4e132c0dec3f65e2c76",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/500_4b6cec7f74e7d4b6.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0215.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "208cd4dbd657ca65c62a48287e31ac4553917ec94c7b03b8acb6c46860ed6be4",
+      "pixel_hash": "866565c646bc5cf8699967aa64168f22333d4ffcc4382fa61ef576a8c91022df",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0215",
+      "group_id": "4a235b56b32001f1600c86bb",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_208cd4dbd657ca65.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0218.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "10fdf1bedda74e86c58bfa8324a4276b97f9a4f0867545203d16b51eb0514044",
+      "pixel_hash": "0fd35d32ee42d77052ba078db7c1e26be4f385c006cf4504fa29011d8d887069",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0218",
+      "group_id": "4c52e7a9036e38efd94a1094",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_10fdf1bedda74e86.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0197.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "544976927b1a2a19ba49fd0d710e173497250c2b99f1891d77af9cedbea49e03",
+      "pixel_hash": "7d2e82da379eec5978dafbbc39799d0a2a0aa4de2a12e249d8f30da20fb92380",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0197",
+      "group_id": "4cd699e5604d52a5de7dabb3",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/500_544976927b1a2a19.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0231.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "12ede66445aa3822dd263386ee01f7405c77d0a83279525148c0fdaa0ccfe065",
+      "pixel_hash": "e25d683e3852b4763863a2565de6aff4c0abbe64b8d340e804f6fcf6306667bc",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0231",
+      "group_id": "4d725f625f95ad7c047a3431",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_12ede66445aa3822.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0158.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "c6e428ac363a139feaa7cc64020c18eddce2cd8d36e5eca4a6e731b8469e1d96",
+      "pixel_hash": "419791f73ecd99fed6d1ae5631d858687b75b0e823cd1ca2b7025857bbf2080b",
+      "size": [
+        928,
+        1280
+      ],
+      "source_family": "img-20250717-wa0158",
+      "group_id": "4d7442e4524f4f241819120e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_c6e428ac363a139f.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0169.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "fef0a357d500514f810ec9221c20f5f3eab6cba9bafeed4946df6ebb0f2e041b",
+      "pixel_hash": "099487e48cb8ad9eb7053caa09d95a109fb804a7c8cf5ec34fb5cf7888cede27",
+      "size": [
+        1280,
+        964
+      ],
+      "source_family": "img-20250717-wa0169",
+      "group_id": "4e1884ac00909b42ec5e40ac",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/500_fef0a357d500514f.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0159.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "adca9d69ffefe3678fced038a834d5bf9e8c7310e69bc1086e5210e58a02d52e",
+      "pixel_hash": "56ead13b48e53bfa3ff64c8457fb1ee0fd9946fe9f1d8728aed08fdd0c0d2148",
+      "size": [
+        965,
+        1280
+      ],
+      "source_family": "img-20250717-wa0159",
+      "group_id": "4ff65f1c2e0865589754a7de",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_adca9d69ffefe367.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0137.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "34e56c3abc9ef0d9b38b8debf41b03c85587bcabe273b8aa192ea3a68fd98abc",
+      "pixel_hash": "65ba732bc52be69cc22ae8778ebf6105f523086f2f0ea995d1e7949e0bfdbe71",
+      "size": [
+        335,
+        150
+      ],
+      "source_family": "img-20250717-wa0137",
+      "group_id": "500f3142c10ef85b8374acd6",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_34e56c3abc9ef0d9.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0195.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "7ae66e699d306f40b27740232d445a6d80236cb4e176e4e72e72fd5faf6bc468",
+      "pixel_hash": "5103f373f6ca43a349f95672b0f17ff0cdff8dcc731e764bec3a4018471b52fe",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0195",
+      "group_id": "523cb38bdfd649493a5849c2",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_7ae66e699d306f40.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0221.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "aa21ca4815fea3fa59a23f50b0370982d13256833afaf97c8194ac938e953c99",
+      "pixel_hash": "1a48aee3fdca7b94533e027a4079987010ea63c0561bc69679deb37489d3c5a6",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0221",
+      "group_id": "52ae7632e9a89a11cc7a6d8c",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/500_aa21ca4815fea3fa.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0190.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "50e8102ca20534509b80ab755bcd47f2f709dcb23c293dfe63750c066ca4d2a1",
+      "pixel_hash": "6e6b71c6f9e540935f41213e1c95345fccb2cd5d1ea6ae4500758f516314bba8",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0190",
+      "group_id": "5a027603e9db3d0a5f7f5bd2",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_50e8102ca2053450.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0193.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "379ad9cf043e8089e969b80593b68642ef7538a62d10f8ecd9d38c539753ab16",
+      "pixel_hash": "107346efc5beeff42d32bec1efc4ed9b5dfc5b147751bd4b5d3cad14dd278804",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0193",
+      "group_id": "5a8fff364672db6ce92a35d9",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_379ad9cf043e8089.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0234.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "a61a5a2c23b6b0bbcb58268286b84f17050c6128cceb32f41155ec43f018a8d8",
+      "pixel_hash": "dd209f0cd00198381de2f02b95527a3385fe1693aead11de0f61522d2346a6e0",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0234",
+      "group_id": "5bbf0b8ff311e24a2ff384ba",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/500_a61a5a2c23b6b0bb.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0140.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "3d95eb6e9b9eaeb05b601da572d38a9f430200a938f780bd396d64f45c540198",
+      "pixel_hash": "4980510d9397564af9112f00084547de80107ff1aca4001a9ebb119b05941d61",
+      "size": [
+        725,
+        1600
+      ],
+      "source_family": "img-20250717-wa0140",
+      "group_id": "5d3e18c83387e40488468631",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_3d95eb6e9b9eaeb0.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0200.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "7bca5a086a156055d6d96348d19f721f02d76012e9a4d8d15fe0377f0da85757",
+      "pixel_hash": "a32a7b4fa9b30b968fd6a47eeda01288c25eed28eca206d88eb033a835e2afdd",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0200",
+      "group_id": "5ec34db49ee68d50ea2fd75b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_7bca5a086a156055.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0151.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "b2b34ae3ea196a8b7e702d0ac1a5db01f0ad054892b865b66aad6a65994c0989",
+      "pixel_hash": "cfc516389dce1338f26104abd2aa98cff0c533c3b45baedc46ad75a94dee673e",
+      "size": [
+        866,
+        1280
+      ],
+      "source_family": "img-20250717-wa0151",
+      "group_id": "5f8338d1c2a67405ec2d2a8d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/500_b2b34ae3ea196a8b.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0142.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "c8ec7e37f9739637facbe158c82f88083c26cb0b4a13e50db33f6fbeb5698ae8",
+      "pixel_hash": "9e4690debb2a24d09693e785e6c536bb5e90ee511f997a12004be9ac17ca937f",
+      "size": [
+        1466,
+        1495
+      ],
+      "source_family": "img-20250717-wa0142",
+      "group_id": "6efcfb3b74c361b4f52c8de1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_c8ec7e37f9739637.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0138.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "9d7b96489991f6ef8e3031250a60a539763b917f85fb7898c58bc3526e366316",
+      "pixel_hash": "b22bc78ce6462ac38baef3fc1a6fa14d0dba15a446eb2e5082c4cb37bcef2cdd",
+      "size": [
+        694,
+        1600
+      ],
+      "source_family": "img-20250717-wa0138",
+      "group_id": "70750cf1b64abbe0b7228c5b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/500_9d7b96489991f6ef.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0228.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "ea5a4f6f3e60e415c44053edbfa53f16fb2f0f212101bf54015980b354b71351",
+      "pixel_hash": "506f8d939954f4dc4e3067ae529cae797cd30ab5b64024afad199dca760b2449",
+      "size": [
+        960,
+        1280
+      ],
+      "source_family": "img-20250717-wa0228",
+      "group_id": "74889f9cbb55e302960998d4",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/500_ea5a4f6f3e60e415.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/500/IMG-20250717-WA0135.jpg",
+      "class_name": "fake money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "8fde4d7ab04de11236ba800ad5758312a613f96ef65a23a30ef4630897307708",
+      "pixel_hash": "ef0f04f59372a5db08a4f397673ea43bd5dbc184f88046410b94335255569a7d",
+      "size": [
+        335,
+        150
+      ],
+      "source_family": "img-20250717-wa0135",
+      "group_id": "7656d5647e2ffc9a86bd58bf",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/500_8fde4d7ab04de112.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105909.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "d535e55d0fc0b9420b46e088baeb61c177e8e7824dda45e2ea3b7871e184f476",
+      "pixel_hash": "0691fdc6082b89f6366ba0d835cb4fb091143f3c94273788cdb52cb8142ba6f6",
+      "size": [
+        673,
+        412
+      ],
+      "source_family": "screenshot 2025-10-12 105909",
+      "group_id": "019db163beec77cfb086a446",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_d535e55d0fc0b942.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144614.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "acf81f8e2116b5b5b4c2435e470f1a423e2fdcb44d75d21e0e99a50334e7b197",
+      "pixel_hash": "3094bf80974ab4bc05d8dc66059666589e132ec7c586f522e4137eb1f034bc02",
+      "size": [
+        457,
+        204
+      ],
+      "source_family": "screenshot 2025-10-13 144614",
+      "group_id": "03ca404e9bd01ebb4f0fe196",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_acf81f8e2116b5b5.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110301.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "fa2c7548f4bc31dedec774df24f4ebee23eb19919b808678e70823f3ad85fe16",
+      "pixel_hash": "be03f0ecb06589050dfe1bd4236f08b05791c3b82679c479905e747c592f6255",
+      "size": [
+        543,
+        217
+      ],
+      "source_family": "screenshot 2025-10-12 110301",
+      "group_id": "0c387cb6bd0995a3a9bcf959",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_fa2c7548f4bc31de.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110518.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "ae5e3dc31c13a9acdfe4bd780ebe5e21f1493f698ad34f261acabd76af9564a7",
+      "pixel_hash": "a71380c77cfaf67a8219cf7ad7e2a03263c3735fa5a8b70343969836b5d809f6",
+      "size": [
+        561,
+        397
+      ],
+      "source_family": "screenshot 2025-10-12 110518",
+      "group_id": "0cc1ee2a27138d00dc10655b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_ae5e3dc31c13a9ac.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-15 104602 - Copy.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "72216f66f3db83b1f2908c6bd0d0779e436cbc68d9a22407d740f5144bbea9c8",
+      "pixel_hash": "c8e124dbc2d23659199c75f6368dcb73d91ea942f61071209d0da4b2980cfe31",
+      "size": [
+        346,
+        207
+      ],
+      "source_family": "screenshot 2025-10-15 104602 - copy",
+      "group_id": "1059ec8e6c67aa8612af4d95",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_72216f66f3db83b1.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/ewrqwerqwe.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "caead489d3df9f76790c10ae3ae65976336d134f926f3c0ec85dabf5190d9eb8",
+      "pixel_hash": "4b0ff558b388ebd1bbe06d606b10cf03f72259fdddea4ccc4e425f2b3d8d3983",
+      "size": [
+        658,
+        268
+      ],
+      "source_family": "fake/2000/ewrqwerqwe",
+      "group_id": "105e41c7f7ed543f8e85089e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_caead489d3df9f76.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110659.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "4496f0050680430117ef37426f383d2db301d62243193fa8644e48e491739794",
+      "pixel_hash": "70236dd73a1abdf709b77b3a6686cfd4a018623222750b7712756e86bfa29017",
+      "size": [
+        360,
+        183
+      ],
+      "source_family": "screenshot 2025-10-12 110659",
+      "group_id": "139689999e3373ca5ce51ada",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_4496f00506804301.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110035.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "507759653bdfaf55e3d042f3198f128a545ffab894ab5427ccc80483f386c7a9",
+      "pixel_hash": "db10cae9298d765d1b467e722956d0c5ae5de0f7912b7ee7652675a9a85a18da",
+      "size": [
+        664,
+        327
+      ],
+      "source_family": "screenshot 2025-10-12 110035",
+      "group_id": "163d9a0fbc38ca968a73676f",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_507759653bdfaf55.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105716.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "d8c29b9fc3fa141d31f8ddaa7c45524cbff04310794aee412bf3b44a7b637db9",
+      "pixel_hash": "0111ded50519e09e53da326d89e313858882a8ee7f08717d16f5d54ffb78fb68",
+      "size": [
+        299,
+        236
+      ],
+      "source_family": "screenshot 2025-10-12 105716",
+      "group_id": "178941af284ce00151ecf31e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_d8c29b9fc3fa141d.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110219.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "fae47d9827972e8fffaeb3fda23b938455dcd68ad592254f817fd65e6f74d885",
+      "pixel_hash": "d599c79168740e03e83a35b87cd569cc4a9a8e0e859864ed1aec7f5924e12237",
+      "size": [
+        700,
+        393
+      ],
+      "source_family": "screenshot 2025-10-12 110219",
+      "group_id": "19692e7e603ed6067f4092e1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_fae47d9827972e8f.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 143825.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "c477f9e64951dc73a1d9e98fcd3849044a9a0693ee801fb90f2b9e933a979db7",
+      "pixel_hash": "f7911d7eb0c7cd8ba3a5a296480cc230429aa97c75b1d61665c35c9ca33b66e0",
+      "size": [
+        448,
+        169
+      ],
+      "source_family": "screenshot 2025-10-13 143825",
+      "group_id": "199e8470b694e20670805872",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_c477f9e64951dc73.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144516.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "718e7a02f3aeb920f76365855e0f0d386ca316f6c6b45abbae354e40f704672d",
+      "pixel_hash": "a9a9f146fdc43f07f39e8669f930c219f01c8cae706100e9d853456ec5d81c25",
+      "size": [
+        634,
+        255
+      ],
+      "source_family": "screenshot 2025-10-13 144516",
+      "group_id": "1d45790af2e7fedcbd2873ed",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/2000_718e7a02f3aeb920.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-15 104657.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "1128c48f8e4e1c5a57f993759250e568dbcb13916aba3b0ced28a3082329e85e",
+      "pixel_hash": "de1c20a075dfb4e78aec3f39362450de0db756c0aaefbf909ba24f8abc1b30e5",
+      "size": [
+        719,
+        329
+      ],
+      "source_family": "screenshot 2025-10-15 104657",
+      "group_id": "22a3149d7c701d12f8f56b31",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_1128c48f8e4e1c5a.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144633.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "98c9a5173772ec99497e166fbebf559c5ff25a855a1fde3086f33aab2e9264a9",
+      "pixel_hash": "a342d46ec528918b1e512fbaa95d864c7afaf6fdc849537614cc83fb3cdde7a6",
+      "size": [
+        657,
+        322
+      ],
+      "source_family": "screenshot 2025-10-13 144633",
+      "group_id": "2442eb04cb02b0c08f32db2c",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_98c9a5173772ec99.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/test (12).jpg",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "e1ace0c440e4751b82ff6d93e5c0963b4e149c20dd1fea97e7b5e1c6c12b863e",
+      "pixel_hash": "60f63b03ccd03738fc083858ab0f736fa751bb39618fbdfedf00228c3d97abb4",
+      "size": [
+        3200,
+        1304
+      ],
+      "source_family": "fake/2000/test",
+      "group_id": "25b5f7ad6484e379eb2ea10a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/2000_e1ace0c440e4751b.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110051.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "fa6bdbb5fa64db66805a4d30757fd82db3e4d0489a5949d8b4f4b6f0ce0ee8e3",
+      "pixel_hash": "4cb1e393ac296fa2d327057bd6713225cee0a95a673730b7fdfc7a9dcd524e24",
+      "size": [
+        589,
+        348
+      ],
+      "source_family": "screenshot 2025-10-12 110051",
+      "group_id": "28fb6f214081246b8cd621c9",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_fa6bdbb5fa64db66.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110437.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "60455043bab6f15d456a1510b0c05e5a96519b30fdd2e5a2ad00780cd68a827a",
+      "pixel_hash": "e10326bd4cf00c1cc9ef9fa26798a4f62537c576a3eac5ad63b44c1a1d096308",
+      "size": [
+        594,
+        237
+      ],
+      "source_family": "screenshot 2025-10-12 110437",
+      "group_id": "2bb9bda67f750d9afd924eb4",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_60455043bab6f15d.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110748.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "2cff0590d3e38921db9e35b81486bddedde7c1db6119d9e94fafaf8d49912756",
+      "pixel_hash": "4f287501d62e20bb4c6dbdef32d047e85b969c79bd94b20495628e2bf76f4b07",
+      "size": [
+        456,
+        308
+      ],
+      "source_family": "screenshot 2025-10-12 110748",
+      "group_id": "2e53842bf2897a959bc97497",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_2cff0590d3e38921.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 143927.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "a2192d626a9ee7007b4452f599f72ba70f8c68a1c80f3c0317e8f99dc3af0e20",
+      "pixel_hash": "b6192e3b7ec89e8f97a6ce682dee981cb9201b8c930b97a37ca75a80f9b9b742",
+      "size": [
+        511,
+        339
+      ],
+      "source_family": "screenshot 2025-10-13 143927",
+      "group_id": "2ee1ad6d6825dbd0ca687c6b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_a2192d626a9ee700.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110354.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "43d366933f661aff436003d0e46e3e95717fe45e8c1e08e375b1bc2d03cad376",
+      "pixel_hash": "29cc7ad0ed46b33cc9d3b7de654cc052775ddfd1d2ecec23787df6af5f056717",
+      "size": [
+        681,
+        272
+      ],
+      "source_family": "screenshot 2025-10-12 110354",
+      "group_id": "2ee38f1756a9828aa6a8e496",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_43d366933f661aff.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110800.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "72924f797859b833c45967e18113ccb9a32242de7b27a24bc9081b31b42ea0c9",
+      "pixel_hash": "83df3bfdda05883ddf7cfe640597462871c3c6a19df35970b556e52c2577b4af",
+      "size": [
+        432,
+        202
+      ],
+      "source_family": "screenshot 2025-10-12 110800",
+      "group_id": "3068c578e4ac5e6c38c4cdcb",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_72924f797859b833.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110724.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "a8c1dd8c8a624cf09716b1315a1ef557fae75390d21d42bcf3247d5ef799f22e",
+      "pixel_hash": "b07c2ac374b34788036a638ebf0449490bf8ce5a964ff0fa522dcf1aad34e122",
+      "size": [
+        614,
+        378
+      ],
+      "source_family": "screenshot 2025-10-12 110724",
+      "group_id": "315c1f2f310984b335e45619",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_a8c1dd8c8a624cf0.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110319.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "4f6166be144582024dbc719efd93186e318ec45787e06bc5ac122750deb4feec",
+      "pixel_hash": "34ad934b1a1273171053cb471a9b74b097ae62092dbb9bec86f289a9f62446fa",
+      "size": [
+        488,
+        476
+      ],
+      "source_family": "screenshot 2025-10-12 110319",
+      "group_id": "393c8cb62f482621291efd05",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_4f6166be14458202.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 143818.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "a1c865ee284b32243b5b34380bca99ffdf9080aa01dd7f14e2f15b78480fffcd",
+      "pixel_hash": "25ff1b38049a34e715e5073cbe4f453d747692c734caa31fbafdfe47a69eb384",
+      "size": [
+        416,
+        168
+      ],
+      "source_family": "screenshot 2025-10-13 143818",
+      "group_id": "3f8932a18e642dd6b58cf8ad",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_a1c865ee284b3224.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144622.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "f652b7f1a649e79dfc8f8d25cbe392b1a4be56354dd67b9c3a31d9da106ada5c",
+      "pixel_hash": "343ea9c21000c558a4e332b0d30e5cf014789f03cd2059601b0451fa7502734f",
+      "size": [
+        478,
+        231
+      ],
+      "source_family": "screenshot 2025-10-13 144622",
+      "group_id": "3fb7a8b77cc1b480db394b3d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_f652b7f1a649e79d.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110009.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "99cdd23ffe5135c161ae00e8659c00809eb2d9a4d1fd80f51b41f9e151ee6929",
+      "pixel_hash": "e928701c0cf1c3c93005a6523de20878d5fbef0f715108a461e2fd55c7ff1366",
+      "size": [
+        452,
+        202
+      ],
+      "source_family": "screenshot 2025-10-12 110009",
+      "group_id": "419a8f8564d50866381920b6",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_99cdd23ffe5135c1.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-15 104446 - Copy.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "dc3b063ccc2871d82f26d3c12d739966d2ec8782b10c55a4dabb6fcd47c1d125",
+      "pixel_hash": "2edb6d8a35c2243779ff395bc5cfb46a66f015354c49c7aaddb43115d24452cc",
+      "size": [
+        354,
+        227
+      ],
+      "source_family": "screenshot 2025-10-15 104446 - copy",
+      "group_id": "4268dfa9800f54684f19cb3c",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_dc3b063ccc2871d8.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144101.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "127e3dca4cb3a7c97eb6b9eff29410ad611ff8d9b530197b4b9ead687382b512",
+      "pixel_hash": "39b5c7d8e3cc23cca1b24870caf7a2ebfc55f6622e2f08793bdd1068f4c94488",
+      "size": [
+        677,
+        318
+      ],
+      "source_family": "screenshot 2025-10-13 144101",
+      "group_id": "436bc8c58e09d7b50ca61564",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_127e3dca4cb3a7c9.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/2000_f6.jpg",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "166df5242a97068cd2b3753afe61105d2689a29cd6f7264e02fc02251dad323c",
+      "pixel_hash": "1c75cba266c496b2278fa164f2760635f0cc8dbd40d4f24f80010e1ef6b18efb",
+      "size": [
+        2557,
+        1014
+      ],
+      "source_family": "fake/2000/2000_f6",
+      "group_id": "449ae3c7527e8371d2847ae1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_166df5242a97068c.jpg"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110638.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "d44fc926c8d5a8fc7d4706b2d15d952530ccaa569532c59bdf250739f3ae59e6",
+      "pixel_hash": "9d0c5c35f7e360186bdbf602a5077f33c9d1c02348ac727bed12e0a3c165638c",
+      "size": [
+        378,
+        327
+      ],
+      "source_family": "screenshot 2025-10-12 110638",
+      "group_id": "456465f911dec43a7793484b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_d44fc926c8d5a8fc.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-15 104503.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "d6a5d79aa84462dcdd60610dfaaf710674a5d2e44242736c2f29f765fa05d917",
+      "pixel_hash": "f2ab3dffbb1a0fbb335cfb1f9fb86d0f6b2d993218fc00b57b5a1e937b407b48",
+      "size": [
+        433,
+        209
+      ],
+      "source_family": "screenshot 2025-10-15 104503",
+      "group_id": "458864bb50d5b60d7dd22887",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_d6a5d79aa84462dc.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144728.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "ad7f553a67c1622a7c858e489f118ba6979fc25d6d9fa1911a20da4c192f69e4",
+      "pixel_hash": "99c0852b39c3611c8c0bce1a7bc8878c861aa72afe62b200211742a8cf01b59e",
+      "size": [
+        597,
+        347
+      ],
+      "source_family": "screenshot 2025-10-13 144728",
+      "group_id": "49875fefd96f1e4eb1ee1bc7",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_ad7f553a67c1622a.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144203.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "e4af00e1c801f889ab1ea84cc42e593ef810ba040c26aedb6c658f6ceedc5c45",
+      "pixel_hash": "3d4d3da0129d63f3e5a894c244d83ea0e471bd3ce1bcf6f2fc829b35d46a94aa",
+      "size": [
+        474,
+        227
+      ],
+      "source_family": "screenshot 2025-10-13 144203",
+      "group_id": "4e799a8f78382cc2f18c0059",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_e4af00e1c801f889.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110431.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "7ea185c2fc8b7d7ecf7b5752914ee4c5203220639d210fd72c50eedc68f1af86",
+      "pixel_hash": "ba21498957204f3226dd451f4ae57ae3b7f95f4e322def6b9f4101f38fb551cd",
+      "size": [
+        707,
+        297
+      ],
+      "source_family": "screenshot 2025-10-12 110431",
+      "group_id": "501b0219cb3336f249dbc840",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_7ea185c2fc8b7d7e.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-15 104731 - Copy.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "6fc7d551e6f18f992d4a1d34ec01888535660e698d22bc212440a8e3066812c1",
+      "pixel_hash": "e31926fb45a57c912fcbfb2ff88cc806189ac0b9d9ed87d3c342613e6ced5138",
+      "size": [
+        708,
+        296
+      ],
+      "source_family": "screenshot 2025-10-15 104731 - copy",
+      "group_id": "5268a9ecb046450596c6ca03",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_6fc7d551e6f18f99.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110001.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "c3ddf51f7fde9e0a8b325c124f1c2837697003d799476010f7a0bbba8b076c61",
+      "pixel_hash": "424056d074bf1a2ab76769f332c9c9af37b0dee0639f827a9114fc7809408224",
+      "size": [
+        670,
+        248
+      ],
+      "source_family": "screenshot 2025-10-12 110001",
+      "group_id": "5b1d4c26266cf05b339e2950",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_c3ddf51f7fde9e0a.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144647.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "a636efcbc5bdf4989de9e3fcab6fbcea5374230e82a5b020343aea8c92d13bda",
+      "pixel_hash": "569daac2361a52c310c55cb69a7b299c5af2e035282a9f0d56a0b5c799f153a7",
+      "size": [
+        644,
+        329
+      ],
+      "source_family": "screenshot 2025-10-13 144647",
+      "group_id": "5bbbe63a335216fdb717c65e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_a636efcbc5bdf498.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110626.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "5e305c0e53634c340b38f98dbc20756869bad6de0398503a5f410b496169b914",
+      "pixel_hash": "d70cb7d28e1bc051fd1a7819fc9e0188782b007f29bee4369dc1a2860c647c7b",
+      "size": [
+        477,
+        192
+      ],
+      "source_family": "screenshot 2025-10-12 110626",
+      "group_id": "65d53cb35bf08234f65dfb8a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/2000_5e305c0e53634c34.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144713.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "6d6d47a817d82967cb4c7dbb82e479c600449617a8ab1d334920bb10068ca597",
+      "pixel_hash": "32a005f6d7814580f409135afca69cfd5d71e5268ae02e16e54214487e0f7d44",
+      "size": [
+        653,
+        302
+      ],
+      "source_family": "screenshot 2025-10-13 144713",
+      "group_id": "6775cc4b0c493118fedd8bd2",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_6d6d47a817d82967.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-15 104552 - Copy.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "923d97ddfcac2aedb25c7f7095484d6629a62fe3fb4d1315362abc0b21867875",
+      "pixel_hash": "4ee45074b8bd475ec5c319aeb06ebc93488021288420e0e81adeede975637a79",
+      "size": [
+        246,
+        236
+      ],
+      "source_family": "screenshot 2025-10-15 104552 - copy",
+      "group_id": "6828cfa59538f80f70471aa6",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_923d97ddfcac2aed.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110235.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "16ce7d9605db0f81a4c9259d8b124bc1601ce66da68a0e6f11715673328f0ea4",
+      "pixel_hash": "28ac0529dbe5f1f36c80b14c0bfef44ff62434c883690593d8896d46e6c57284",
+      "size": [
+        430,
+        185
+      ],
+      "source_family": "screenshot 2025-10-12 110235",
+      "group_id": "6d648862168fc649aa952bd6",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/2000_16ce7d9605db0f81.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105738.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "6ed5ae16eb6d0ce85eba4dc47f340b8c48c7301d051dc382ca90b320740a97f5",
+      "pixel_hash": "5a6dfeef6c6bb7affbe9c533772b332a6278010c890045a28c715e69eca2303e",
+      "size": [
+        535,
+        412
+      ],
+      "source_family": "screenshot 2025-10-12 105738",
+      "group_id": "6d8ac1ce4af0a46e22db2774",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_6ed5ae16eb6d0ce8.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110252.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "a05b46f5d0605eefde6491c5e7b3174bf2a9b3bb138a9bd884b1c45af5a6afc6",
+      "pixel_hash": "7abfbd2cb6d04bcd15e516189aee311c3bedc4dc097bbaaee934acaa50271a0d",
+      "size": [
+        575,
+        486
+      ],
+      "source_family": "screenshot 2025-10-12 110252",
+      "group_id": "6f67239d0e1d30dedc93cbed",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_a05b46f5d0605eef.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105938.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "3ab1036cfdd05a4da1a2ee949f02d2237b7e665da6d99dd5d0bbca108b69db7c",
+      "pixel_hash": "d334295c8ccf96ad001b0b953fae6360b0ea6f183927db69a9377ba0a3f81850",
+      "size": [
+        527,
+        331
+      ],
+      "source_family": "screenshot 2025-10-12 105938",
+      "group_id": "70dc0617aa3ab735c36ba423",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/2000_3ab1036cfdd05a4d.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 144415.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "26369bccb1b9df38eafac9859754fd39081058c5f227eaab4e9c68413ae101ec",
+      "pixel_hash": "3fe368334a60418634ff230da3f1043026f687ca05f34cea75f56087e3dc1240",
+      "size": [
+        642,
+        269
+      ],
+      "source_family": "screenshot 2025-10-13 144415",
+      "group_id": "7454fa0daf78463851ed5c7d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_26369bccb1b9df38.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-13 143940.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "7d75be9a22c79c0df3b47b4622679a11f5917a6bc734e30d26c7221a283b872d",
+      "pixel_hash": "876110d7cd190126e8ce770665294ab4872108a2fd8dd06e5062df12901e139e",
+      "size": [
+        520,
+        226
+      ],
+      "source_family": "screenshot 2025-10-13 143940",
+      "group_id": "7ef7da9df861a35baba649c2",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_7d75be9a22c79c0d.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110536.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "80e4f8543295a066fcb0029fc1e31242e8fceeefa3708f61406ee6377900b001",
+      "pixel_hash": "9b88105ed3b624fe723e4a3789a25c0e33a27e0f1ff1da35af0dbc60cf4fb5ee",
+      "size": [
+        528,
+        369
+      ],
+      "source_family": "screenshot 2025-10-12 110536",
+      "group_id": "8058f6f1405d5343a61854cb",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/2000_80e4f8543295a066.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110018.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "e8e7971ccdd87fe48214ac0974b32fa18f5f10a1eb1e0edfa38d25c4f5df5fd9",
+      "pixel_hash": "523c2deacaee992300d257fb256c3910d3131a1d787ab9d5cc9e366fc11065cb",
+      "size": [
+        563,
+        237
+      ],
+      "source_family": "screenshot 2025-10-12 110018",
+      "group_id": "8344b0042902e7430954247a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_e8e7971ccdd87fe4.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105808.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "9e65100c87d37d3960f6970f2abf84bbacac8e13e84ceaabb5ea577c8b6bd343",
+      "pixel_hash": "e4d2c0e6326d56a0fd41103d8ee89cc9c3836f44cc9804a004854e9185e3b68b",
+      "size": [
+        521,
+        168
+      ],
+      "source_family": "screenshot 2025-10-12 105808",
+      "group_id": "86638f7ff3cf081aa888a749",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_9e65100c87d37d39.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110742.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "7d5fd0731c70d7373ef8c1b2fb30d82acbc66c82b92ba33d52e137a8b5e4c07e",
+      "pixel_hash": "5cf3ff4d9dacfe1ce17e13affa16e5cdf80f2566a944a6e6b99edef33fe6ed94",
+      "size": [
+        471,
+        204
+      ],
+      "source_family": "screenshot 2025-10-12 110742",
+      "group_id": "8a6047b5ff2f870b4ff2ee7b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_7d5fd0731c70d737.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105643.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "6bb9323d4dc64e33cc31c8fa0853e2fb36c9ec2d1868164c609df83841b0470f",
+      "pixel_hash": "0933dba47a84ec8fbd540d21e52d78b8b841512acae36b3e58bae848964e4408",
+      "size": [
+        688,
+        391
+      ],
+      "source_family": "screenshot 2025-10-12 105643",
+      "group_id": "8c01e01a8b2491a7398ce37c",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/2000_6bb9323d4dc64e33.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105924.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "adb69cf5226c8af125f3add58ba64d5c74bb68908846d7f4c7134b3313ee0934",
+      "pixel_hash": "c87ecf60de452510cf49ede325ce3404cdd045dc639fce731683ad0fcf895bf4",
+      "size": [
+        583,
+        225
+      ],
+      "source_family": "screenshot 2025-10-12 105924",
+      "group_id": "8c8c1e646aafca94f1c55bf1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_adb69cf5226c8af1.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 105749.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "debedc04bf429cbb14273cb9180090630f16f94ad3a3a49d169e92a329ad1996",
+      "pixel_hash": "12545ede20d0556aa755452b6d92767c358d71c363974608fcf3a22a897a527e",
+      "size": [
+        249,
+        205
+      ],
+      "source_family": "screenshot 2025-10-12 105749",
+      "group_id": "90080168ea2a259f4a34cd10",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/fake money/2000_debedc04bf429cbb.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110023.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "eaa8f8ef82f1b7a2c4f94fd70f4bfad4e65e6b6fed33951b0b0fe97cfc4af608",
+      "pixel_hash": "d962dfb5cd5a4cb4b36c772c5299886d450d62b8716c88456505146d7f114731",
+      "size": [
+        574,
+        312
+      ],
+      "source_family": "screenshot 2025-10-12 110023",
+      "group_id": "9185d1e69a5fc9777f5a3987",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/fake money/2000_eaa8f8ef82f1b7a2.png"
+    },
+    {
+      "path": "archive/data/data/fake/2000/Screenshot 2025-10-12 110455.png",
+      "class_name": "fake money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "64e4be101b99f1cb45d687daa5479d5c50e7fd971470e532eead04d4d728f5e8",
+      "pixel_hash": "238b00e7af1f399835d704398d1a631ccba411e0177343ef446d7483edeaef8c",
+      "size": [
+        198,
+        82
+      ],
+      "source_family": "screenshot 2025-10-12 110455",
+      "group_id": "923f0ce8a0be80ddcfbe725c",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/fake money/2000_64e4be101b99f1cb.png"
+    },
+    {
+      "path": "archive/data/data/real/10/IMG_1667843664629.jpg",
+      "class_name": "OR money",
+      "denomination": "10",
+      "split": "train",
+      "sha256": "9b1ec45648e4247448154de1af96fab0fa842f4c7411bf12335e2f3829aad17b",
+      "pixel_hash": "a3619db2efa984485ac9aaee070cded97981462117d8d0273c37cadb0c410f3a",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667843664629",
+      "group_id": "0031f8a365bb9e123e960c05",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/10_9b1ec45648e42474.jpg"
+    },
+    {
+      "path": "archive/data/data/real/10/IMG_1667831669675.jpg",
+      "class_name": "OR money",
+      "denomination": "10",
+      "split": "train",
+      "sha256": "1fa2e0dc4cdfd936690164c8f364bf8d8ee7b50f1a1903c8e4cda604bdf94829",
+      "pixel_hash": "cc51fdc1a3e6f38be5799a504f7eee6bbca1ecfdb72c6b4536735d38990a1e4d",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667831669675",
+      "group_id": "0039eadf9eb4bc79fe8b9479",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/10_1fa2e0dc4cdfd936.jpg"
+    },
+    {
+      "path": "archive/data/data/real/10/IMG_1667843560549.jpg",
+      "class_name": "OR money",
+      "denomination": "10",
+      "split": "test",
+      "sha256": "b4db1bc07df18d65cee06e4f3d9505b4535f48e0b03610699819e79e8b52c19f",
+      "pixel_hash": "22e58b48b496a5393f60a228972f4b5656c6ae0e21db942065f43be44aef1aec",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667843560549",
+      "group_id": "0149fa506c8d10e2041c054f",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/10_b4db1bc07df18d65.jpg"
+    },
+    {
+      "path": "archive/data/data/real/20/IMG_1667841109309.jpg",
+      "class_name": "OR money",
+      "denomination": "20",
+      "split": "train",
+      "sha256": "289f8dfa391fe55cf060edc1d2114088f850f549c71a0baed137fffa0402a314",
+      "pixel_hash": "354a7dc14a8326f3496a7429641a542f08cca2cdae58e5f56f6b482b9137e7cf",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667841109309",
+      "group_id": "00b3bc17515530617e1e7867",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/20_289f8dfa391fe55c.jpg"
+    },
+    {
+      "path": "archive/data/data/real/20/IMG_1666265902862.jpg",
+      "class_name": "OR money",
+      "denomination": "20",
+      "split": "train",
+      "sha256": "34c36bc0d851387926f2b8ee69de20f178dbfbf539acbea954dffbb0c5922e92",
+      "pixel_hash": "bfb76964e3f8e644cee5dd32cdc2b94e864a35955f1834f78306d68cb5a6accd",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1666265902862",
+      "group_id": "00ebb1d6a1005f31f476668a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/20_34c36bc0d8513879.jpg"
+    },
+    {
+      "path": "archive/data/data/real/100/IMG20220929002018.jpg",
+      "class_name": "OR money",
+      "denomination": "100",
+      "split": "train",
+      "sha256": "55b60517387b448be25f4d49849cc80b0e9514850585e86a49a492906bc97df4",
+      "pixel_hash": "75fa61dd8882e7ca684b81c6231fc49c30ba34c3c69915d3a019f227db77f412",
+      "size": [
+        3468,
+        4624
+      ],
+      "source_family": "img20220929002018",
+      "group_id": "00016923b18e37025b3e7394",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/100_55b60517387b448b.jpg"
+    },
+    {
+      "path": "archive/data/data/real/100/77.jpg",
+      "class_name": "OR money",
+      "denomination": "100",
+      "split": "train",
+      "sha256": "7b1b73739d75ff4160055a2e2369f473a31a61b67e1e16e679a3de7aa3ce593f",
+      "pixel_hash": "5de976feaa129551ca352c990a746595f4abd1fd92e5c897fb2aff25b7c40f13",
+      "size": [
+        400,
+        180
+      ],
+      "source_family": "real/100/77",
+      "group_id": "003b6e577417bc7c5032fae5",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/100_7b1b73739d75ff41.jpg"
+    },
+    {
+      "path": "archive/data/data/real/100/IMG20230110194728.jpg",
+      "class_name": "OR money",
+      "denomination": "100",
+      "split": "train",
+      "sha256": "744c2ee7e2009f1ace6e153a7358e86247da89d92f4d49df7d54ad29f6a2869f",
+      "pixel_hash": "e95182540fe02979cf9de1725712676cd351c97c4d9d0a7a3efc1044514ab7f8",
+      "size": [
+        4624,
+        3468
+      ],
+      "source_family": "img20230110194728",
+      "group_id": "004f94f307ba5bd56fcae9fe",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/100_744c2ee7e2009f1a.jpg"
+    },
+    {
+      "path": "archive/data/data/real/100/27.jpg",
+      "class_name": "OR money",
+      "denomination": "100",
+      "split": "train",
+      "sha256": "a28e640afd13c787de2c7a09a7060ebfe7a3089b8d46be11d3a1a3da6b703eaf",
+      "pixel_hash": "c1aadf8d3a5cce7add37988e18b0da931a74e3f977c532333a6a2afd3ec70841",
+      "size": [
+        707,
+        361
+      ],
+      "source_family": "real/100/27",
+      "group_id": "00644bbf121ca362458503c3",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/100_a28e640afd13c787.jpg"
+    },
+    {
+      "path": "archive/data/data/real/100/IMG_1667898875671.jpg",
+      "class_name": "OR money",
+      "denomination": "100",
+      "split": "val",
+      "sha256": "757240448cf46788f2eb4864b1cfc8bf397a845615225b6a2375d46dff5e1f0d",
+      "pixel_hash": "9fbe5b3293d4d2aab4a58b65865b9f4084da9ce399feb9c3a2e3bfef8fb59500",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667898875671",
+      "group_id": "00845bf1768318e1b9c435f9",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/100_757240448cf46788.jpg"
+    },
+    {
+      "path": "archive/data/data/real/100/IMG20221010134034.jpg",
+      "class_name": "OR money",
+      "denomination": "100",
+      "split": "test",
+      "sha256": "f5a765f1ce4bb123735d3c56aa1dbd60f327f6046d4997a5544a94107d989b98",
+      "pixel_hash": "62d87ccdd3b6084a85ad57fc8f6040e9aa12e16daf56376d90d4cb603fc27148",
+      "size": [
+        3468,
+        4624
+      ],
+      "source_family": "img20221010134034",
+      "group_id": "009294a2df75a8934d4ebada",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/100_f5a765f1ce4bb123.jpg"
+    },
+    {
+      "path": "archive/data/data/real/200/IMG_1667888599081.jpg",
+      "class_name": "OR money",
+      "denomination": "200",
+      "split": "train",
+      "sha256": "429e55b1883f319d62bbba945756351a76d5170d20d0fa2a842eb2c052fc8dfa",
+      "pixel_hash": "ba67d5f57940aa620b37eacab4c83b9da6220665f7b062ebdd593d9346ccef31",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667888599081",
+      "group_id": "007788c94bbc295635bc5083",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/200_429e55b1883f319d.jpg"
+    },
+    {
+      "path": "archive/data/data/real/200/IMG_1667833930488.jpg",
+      "class_name": "OR money",
+      "denomination": "200",
+      "split": "train",
+      "sha256": "1f86adf3eeb8be3fac2276cc04fcb476607520d5afce34f6e83daa437b366a63",
+      "pixel_hash": "d9e274e01b987eb3b8290beccd966ac80616dfaf9f932a394fa16919c875459e",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667833930488",
+      "group_id": "00c0e27cead3973d8c17a17d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/200_1f86adf3eeb8be3f.jpg"
+    },
+    {
+      "path": "archive/data/data/real/200/36.jpg",
+      "class_name": "OR money",
+      "denomination": "200",
+      "split": "test",
+      "sha256": "57fbf1a862e6bdb95c0677d1af23dfa2bd20ee44373d9011b921cdde409b4aba",
+      "pixel_hash": "c5b000e013de748f087fc42475461ec94df7882f8bdc8cefd79b165a7f97afb4",
+      "size": [
+        281,
+        179
+      ],
+      "source_family": "real/200/36",
+      "group_id": "015d9eb60d16b38139586bb4",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/200_57fbf1a862e6bdb9.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667890201120.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "36719d3e3ec6b119e63234c5bab96e8d6171a63bd6607cbfe444edec0a0c5155",
+      "pixel_hash": "1bb612b61199a2d63f9df79a24ac18fc9d920fe272bb665a4b3310251380c935",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667890201120",
+      "group_id": "00336c69ba21ae02a54968b9",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_36719d3e3ec6b119.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20220901133103.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "52a7d0c470e375b2800d33df6bf223a370eea3ec6d6d19789b9b7ca4961956df",
+      "pixel_hash": "3a4da40a6d29dfea2021cfb21ce06c3004173f27c9669f8179b37ffc16d75da0",
+      "size": [
+        4608,
+        3456
+      ],
+      "source_family": "img20220901133103",
+      "group_id": "0066265662dc91078e724a72",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_52a7d0c470e375b2.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667889111639.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "8955637a0940e9655fe33bef4c1b9161272d5630ac775e9c151a23d5ef676785",
+      "pixel_hash": "9a5252738a0ce9362597da3189da6768cfb51d43d396c5e7447f51d3f0f05973",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667889111639",
+      "group_id": "006ada0bec904bf726ac2f32",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_8955637a0940e965.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG-20220928-WA0080.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "94b7979470e5604120a6745fda95c8f2a8442f6f8b779b08b83942a439679c55",
+      "pixel_hash": "ee9b4cea96ec7585f0ae356d95ff07112ab67f20d9dacbadf721716e86cbeb30",
+      "size": [
+        1200,
+        1600
+      ],
+      "source_family": "img-20220928-wa0080",
+      "group_id": "006f1bfcd96bf6fc6f654d8b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_94b7979470e56041.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667850108539.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "9a7b50bd8273b0570ad32d7cc15ab41892a6a7197838774b9829c5eb20fcc10f",
+      "pixel_hash": "ee161da361502e3c2661007125f743b821eaf6dd56297fda7de152af4195a62b",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667850108539",
+      "group_id": "007e646bab1e213843a4d254",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_9a7b50bd8273b057.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20221010133332.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "968558302d8db188a784fb8fd9515796962f775f5520a1d0a670fd8d75cc58f8",
+      "pixel_hash": "021daa5739f33eebd92bcccdd57cd2d47982eeb8310770c0ac658bef933ea602",
+      "size": [
+        3468,
+        4624
+      ],
+      "source_family": "img20221010133332",
+      "group_id": "01738a94220a7b41b4a7d522",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_968558302d8db188.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891990667.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "8402d783ee4cefda56e1bd55e2f7fdc9a5be002c23b5be0d4b399fa2648636f0",
+      "pixel_hash": "048ae609c4cd2e5e42dfd8e70ba67234f04126a8c7e18bf1e8ec069ba2d70f85",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667891990667",
+      "group_id": "017d9d62bb8721bc7e0e01af",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_8402d783ee4cefda.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667849603381.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "f4d94b8538f0c08ea788150486cab2ff541d055b221295b9594acdddcc907912",
+      "pixel_hash": "20d7fabeca2afe669007a1f3e050fcb0633b86bf5fc05a0e4e0067b5092817d0",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667849603381",
+      "group_id": "01e5335fec34b690b297882b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_f4d94b8538f0c08e.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667852030743.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "c944d45bc3c12f4c279d40c8f541e35e7cd833a19f9ce4791ec16d5478d81d52",
+      "pixel_hash": "2dbcc695ae1682662ac232b2ddf5c9f2623160786fd65f6bd67238f6743684b7",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667852030743",
+      "group_id": "02ed4310c3a0d4ea8eb64742",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_c944d45bc3c12f4c.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667850245275.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "e08450b38089a7472478a20ff9c44e613e96589595a0d17fc34c3a69999f9fab",
+      "pixel_hash": "32bdfbe7553d84ca590e8aab095a2bdb79a19811e442f98caf12013b27a51284",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667850245275",
+      "group_id": "03156a282d01f2ae1ea7cce8",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_e08450b38089a747.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667886141861.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "aeb70591a5d773d26aa34b92310c4195104a5cb02056f46ee80a1669f8c81d82",
+      "pixel_hash": "d2071c4b45ed9c2508c610f20ca8d39ce5698ac0d3f4a4f4da279abea017b97d",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667886141861",
+      "group_id": "040d9021525578064ea87068",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_aeb70591a5d773d2.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891374634.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "6e9147731c7b226e2d8edd5258ac8af3557f674ed43d567eae8d9606feab4a3b",
+      "pixel_hash": "d6a3a2effa23fac252afdb4a515246c79503faf41e25961a332c8f7934ed6246",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667891374634",
+      "group_id": "043610ec919ec1d27a1e205d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_6e9147731c7b226e.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667851212189.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "24ae6fe4b70e6076f2451624ee74fc927391dcc44d11b73d0553b7a4a1faedc1",
+      "pixel_hash": "5881e754f681981747865951127687af4afcf490ac78f564af284b6841d8e146",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667851212189",
+      "group_id": "04c8bd97f9a25dfa5dc7a6e7",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_24ae6fe4b70e6076.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/58.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "02da0cf5521633476381ec7f3589bdc9306ceabebb3937b33e18062ea48f07b0",
+      "pixel_hash": "a089993f9dcf3059d2bb367115dae59f2f661a7f33ba68980981e3a90f27c5c3",
+      "size": [
+        498,
+        154
+      ],
+      "source_family": "real/500/58",
+      "group_id": "04d661e7818d03a9b682a5bf",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_02da0cf552163347.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667886179503.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "4eaff38736da728f136625a80971b3ebcee4f9b398db317fcd8cea79356dadb1",
+      "pixel_hash": "5b80c82398235eaf0cc18b25c485f042a1c60fbeb1f96acb03874db1422616db",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667886179503",
+      "group_id": "0557bffd4e56dccbf2d60130",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_4eaff38736da728f.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20220901133128.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "5ab724fccd2f8613059d511376ed81ceb13d87eb5866d00884ab7ba2ac0fe36b",
+      "pixel_hash": "a485dddb21a9d406a2b69ce2d8d4ad5860214db1d2a1c2224c529debdb401597",
+      "size": [
+        4608,
+        3456
+      ],
+      "source_family": "img20220901133128",
+      "group_id": "05be1fe9b302259e78220628",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_5ab724fccd2f8613.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667889037976.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "47465742cfd64d3ee55826153b4cefb0f4d437293ff4a159def6b578914c16d6",
+      "pixel_hash": "73f04e7bd54562822214171743e96858ce6ce6e8dc060207cc2160a55797d0be",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667889037976",
+      "group_id": "05dfc9e8e8d21e59d039f67b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_47465742cfd64d3e.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891138776.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "3347bf4fa4b1836d7439a5f770493448f9d515da2e3ecccf7f022de9a79bf3cc",
+      "pixel_hash": "f74da15eed8f8d24fdedc8ef77e4b3dd9ebfbf263aaef825a7b221d7459a1170",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667891138776",
+      "group_id": "076d9aefc2a4bc13c22fbef3",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_3347bf4fa4b1836d.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667888740858.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "eff984f999ecc673946cd8a83542e3a9821ec60f11675b1a494c096a44483133",
+      "pixel_hash": "592fb3ab37e90511061d52cb9811ca24db0cc73ae0d8adca4d5b889d9700331c",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667888740858",
+      "group_id": "0771c25298a91ecf5d4feb11",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_eff984f999ecc673.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891986351.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "2fce634fc6a4da2b5dbfa01aefb2c5b5e103a01bbd5fdde533055c8b53360427",
+      "pixel_hash": "9537b618699917bcb70009a2a6960d2dcb8e9a10b1385314a01e1c8e27664f41",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667891986351",
+      "group_id": "08485272b8e20a2fd188afd2",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_2fce634fc6a4da2b.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG-20220928-WA0046.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "0aa16f8dfc75cc42d3c7a1c2080b6769dd94c29e94efaa9269e4e44444d82bac",
+      "pixel_hash": "c6b55c9ed8bf62390eb550f8f6d1d65ad9c2f91efc61143b3e5070ef86d88916",
+      "size": [
+        1280,
+        960
+      ],
+      "source_family": "img-20220928-wa0046",
+      "group_id": "086e490aa1f6fe662c401631",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_0aa16f8dfc75cc42.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667851919697.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "c22e019c2ca1951fd4ee7814a02f3778505623b7860a5048a2440bfb0fa296a7",
+      "pixel_hash": "52aaa163355a3348c8366aaa1a412ec13d5e7b028a82cc8b994d6ff526e4d3d0",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667851919697",
+      "group_id": "08c38ae74292846999b39f7a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_c22e019c2ca1951f.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/8.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "8665d5694b38ef9a5ba34e1d932435600e4460df3df4caa88034701cce12a511",
+      "pixel_hash": "388803c5136532dd06488fc2b22aa1ce72bacb60d6c57bf594d1cb5b24ffa40c",
+      "size": [
+        800,
+        533
+      ],
+      "source_family": "real/500/8",
+      "group_id": "09749582a2cfde96cedf5cfc",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_8665d5694b38ef9a.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667849622714.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "ebabb45d036da249e141340566dbb9c21061bf1a217cae828b21788ffa39d849",
+      "pixel_hash": "182f9f9b7b040f38f08eb50b8be3139082c921e177df806ebc6a97cdae7a6b96",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667849622714",
+      "group_id": "0ad393a03b4ebf868dabf6da",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_ebabb45d036da249.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667886839879.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "ce0331a4987f68d32c9c569abf7ab8c5fda8957e1f9d6915ff99ff659c8b8a57",
+      "pixel_hash": "f1448f84baef1bda03dc6ca1384ef0505e6a7f9fb731b966b1b8999d1362be74",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667886839879",
+      "group_id": "0b4a316579a9367e6fc852ad",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_ce0331a4987f68d3.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_20180120_122655_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "eb6ddf0832776915476daa5a44293d4ced48333e6142f83f5eae2db6a3888eb1",
+      "pixel_hash": "8e0e5f39b5a13f4e73a53231f66deb88168edfbca5344d1fe2fa02259b0d4c10",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_122655_hdr",
+      "group_id": "0b74b299702572a9457a5394",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_eb6ddf0832776915.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891352472.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "f28c4b0d594566942cee846a91ed0f45a803fd26a55ccc66a8029ce311e75c71",
+      "pixel_hash": "612a92e3b3f27f64f2789aea9a9f6f3ee26697b223681708c34a335c1ab5fd48",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667891352472",
+      "group_id": "0b9b8d23d4d179731e95d55a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_f28c4b0d59456694.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667886644926.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "477c02d57f0954424a90a9b80035e8b893e63ee373085541a8fb7a792d15c779",
+      "pixel_hash": "4ed667b439d979acd4ee7af2031a391f1e93645b1c29642fb96aae6e3af44005",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667886644926",
+      "group_id": "0bda0fc5a88c01537854d980",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_477c02d57f095442.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891653904.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "638c746ca1259a209f48156927a28b1e8c52617396a6b7c40ee2ddb1cd3ea383",
+      "pixel_hash": "34950f4e3d9dbcb2b266b3b33b860dded83d79b394476b0d582e9eea35c201c5",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667891653904",
+      "group_id": "0c888bdca4bee94a66552ace",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_638c746ca1259a20.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20221010133522.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "a0d221f9a6633765df3ad10f0c78d322885b8fd8d9b9aaa069165e224b4ebe69",
+      "pixel_hash": "d18009434d3bd02591e8cba635f3b164be700a4227a404ad8a74f41f13b0c425",
+      "size": [
+        3468,
+        4624
+      ],
+      "source_family": "img20221010133522",
+      "group_id": "0c917d4a9dcd1fc97f153900",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_a0d221f9a6633765.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667850666893.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "ea13c62e1429ddf7a31ab79817e5d4252dc8b7685342e7597f9d908ace9b8031",
+      "pixel_hash": "f4811b97eb470d3d3f94a027028326b5e377cd2021e6eeabb2fea3355c395eb1",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667850666893",
+      "group_id": "0d2869a302a96426e762126d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_ea13c62e1429ddf7.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20221010133122.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "ea4d20d7e71ba0c3f68d79059fc650b1e675253324fbb8b8360ccd87d463f9b4",
+      "pixel_hash": "66be3ade5d54d3055b5e3da58f9175af12a5b97b553a1866d8983cdf602b7f53",
+      "size": [
+        3468,
+        4624
+      ],
+      "source_family": "img20221010133122",
+      "group_id": "0d2e597a935d8276ae9c5f47",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_ea4d20d7e71ba0c3.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667852158156.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "d02c60b56b284f8d0b55fa3a6da6d64eb19fce48d527d79e61b734a28b540d0c",
+      "pixel_hash": "495861edd77f38551eee58e43cbf5b7ab6d4dac61554474cd13c70eaa3ae9551",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667852158156",
+      "group_id": "0d35c098ab4d0ba63648cc8f",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/500_d02c60b56b284f8d.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667852393166.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "3ae3a6053d156510284f82ee72904d344251590719c05aca91a00b8075f7c621",
+      "pixel_hash": "b12f24a5f49c24e8758f06f0f5e9aa8b2dd844ee4fe65da760c132f265accf17",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667852393166",
+      "group_id": "0de05d10c78f1ebe9b9c2a6a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_3ae3a6053d156510.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG-20220928-WA0101.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "5fee7ab003e054307415c9412da6a8743fe83a003c31d4aad6dfbc0b921f058d",
+      "pixel_hash": "9a57dcda2cef67307e5e3d0cc3db89aa6461cb1acb32d602d455853d259cd982",
+      "size": [
+        1200,
+        1600
+      ],
+      "source_family": "img-20220928-wa0101",
+      "group_id": "0e08d4469f5ef344924e0dab",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_5fee7ab003e05430.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891601631.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "3a748ecda057607e130ffdea3b0cde53c355937f98e371e65e509e8049e13215",
+      "pixel_hash": "233ed3181093d008156484a9d2db90c53bd19d3368bb4648a77f2760a59e6dd1",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667891601631",
+      "group_id": "0e2c42536496b75b793d4324",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/500_3a748ecda057607e.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG-20220928-WA0128.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "1f18e8e8b591f522fe4194df0b14f39299c884b09e9a80d501e183ddf45bf628",
+      "pixel_hash": "fc7b2d002f973f5d5063b4ad4afeabdc9e53acb0987bb5acc2a84711cbb68b1d",
+      "size": [
+        1200,
+        1600
+      ],
+      "source_family": "img-20220928-wa0128",
+      "group_id": "0e5870e34d1f0af88b255fd2",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_1f18e8e8b591f522.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891997164.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "a1757fa3f018a00524f46e7b448e927e627b94859db79efef0938bc07ed24ec5",
+      "pixel_hash": "057cf75661fd47413852fad29c57d763a4d1c9e1dfcfe17f47aabff26877f6d0",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667891997164",
+      "group_id": "10d222826cd93d27c017048e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_a1757fa3f018a005.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20221010133748.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "57d7b68b40c7c74095cb4d02b0a9bf1635537ec137689fa0aae1acf1f03d46b0",
+      "pixel_hash": "6763d9d37a8c58ccbf6ebdf32c81ee95d30c5738774e003ffbb6ba453d81a28c",
+      "size": [
+        3468,
+        4624
+      ],
+      "source_family": "img20221010133748",
+      "group_id": "111d6efdc88418f61b5873ed",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/500_57d7b68b40c7c740.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/7.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "09a7329f2b98b880148243653890e959db5439d742787fae8f194991ea2af8a2",
+      "pixel_hash": "e3a7cc65c0836d968269cb7a14a3c517cde73ea0cc21724d4d71e721ea7cfbf4",
+      "size": [
+        727,
+        363
+      ],
+      "source_family": "real/500/7",
+      "group_id": "11234c882bb465f58cf8500a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_09a7329f2b98b880.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667850562244.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "5642c25a9b3d320ad7c4644def869fff46d37704eb729009c24d6aecaa5e253d",
+      "pixel_hash": "671fe4a378ffd49b9b316247490f2423a33ff117fcc8d2d7ab0a019a3740c43a",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667850562244",
+      "group_id": "114ff90e3e129ebd5d832987",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_5642c25a9b3d320a.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667851231931.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "0098b81c9f1e60daeea3e4d4c4eae8ade4a32449f62811a64fd8056b5784b8fd",
+      "pixel_hash": "669989d8b45be302f2a8ad7869654dddd1e5d2ecfa495e692f79182d1837db5c",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667851231931",
+      "group_id": "11693cd54fbb86611d1d3c12",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/500_0098b81c9f1e60da.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20221010133124.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "88ca00ccfea95b1ec22659ba11a9b28f0c818d8b6b1b5310db5b08529d51c4bb",
+      "pixel_hash": "895a6521a205ccd7ecfadd45b5be9de5c1d4ccf6602c072e8d5cdbab79d89678",
+      "size": [
+        3468,
+        4624
+      ],
+      "source_family": "img20221010133124",
+      "group_id": "12b6b9539e55880533ae03e2",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_88ca00ccfea95b1e.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667852865723.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "4dfbb2403269f908a125965e20e7f9b50da2571a1f4decec5f1352c5a4c18484",
+      "pixel_hash": "b4153fd3479e524a174953f7811dca48a8882964865a69dd539fa1508d38b5f8",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667852865723",
+      "group_id": "12e86b9256f3e21db4aaad57",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_4dfbb2403269f908.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667892002654.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "1fec0b7447716c5012a417d44f101c6789763a1541864dcdd58b047cbff9e740",
+      "pixel_hash": "5f55c78e593b12142dbebe0d547376f65caf826caf13abeba3d2be2b972498a5",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667892002654",
+      "group_id": "12ffc90b71649d9e35a13a3c",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/500_1fec0b7447716c50.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG-20220928-WA0041.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "20bf6eabaa0688845cccd23e5e1765b77c6735fec272fdaf7c993037e15bfd70",
+      "pixel_hash": "48e0fe84f9363e41537377964350409b5a61cac37d88ccb9d7c2a2aed26eb0a3",
+      "size": [
+        1280,
+        960
+      ],
+      "source_family": "img-20220928-wa0041",
+      "group_id": "1360a1864f81d8c50099a17e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_20bf6eabaa068884.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20221010133533.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "27178db9789481cf26a41715f1b63356f5ff204a5ca5145473b902e8a392464d",
+      "pixel_hash": "52a1b94f8dea0e5759ebe1d3385356d4548820fa234d71790eafea2380fff327",
+      "size": [
+        3468,
+        4624
+      ],
+      "source_family": "img20221010133533",
+      "group_id": "138d0aafe34f42f14768104f",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_27178db9789481cf.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667886543567.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "3052836fe8390eaeaf54faf179d087cb6095024ee52dfa9c5f529361102a1805",
+      "pixel_hash": "d12c5009573a15ca01de5eb8ac8f00f92c38d6f3f5331f9bf0e114c7e3793cb7",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667886543567",
+      "group_id": "13f874e584af7af7746a0e71",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/500_3052836fe8390eae.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667850591057.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "ac325e7d5d387aaabd4da6eb16dc9cac3bcfaa810606cf8ad5aef0cab2b3566c",
+      "pixel_hash": "5bfcdf2bf46f00192811dfcbd3b7ed240cbdc0df1a79ccaa1a148346b15add38",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667850591057",
+      "group_id": "1436a682b145d55b62e9b781",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_ac325e7d5d387aaa.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG-20220928-WA0107.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "b151f9713a7b82a86c45679e019420318dc5ac0005f9706f9f8212be6f5b151b",
+      "pixel_hash": "8d5db0412999cf6eb11cc595eab0e62cf05560060ff683697ee0f1542d152b8a",
+      "size": [
+        1200,
+        1600
+      ],
+      "source_family": "img-20220928-wa0107",
+      "group_id": "148804d54554c6ed7efba0a7",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_b151f9713a7b82a8.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667890143127.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "4c156b19aad19f12361c6d6eb2dbfc97a30c71c1fa59940c0920d2f4776881c1",
+      "pixel_hash": "f61c2969b49aa6b1720146215374c7630e4dd7921a52f8ee12b8a4af2a0e3f88",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667890143127",
+      "group_id": "14a2c5060703bb68c8f06594",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/500_4c156b19aad19f12.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG-20220928-WA0092.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "12494e6e0f58053b86decc620c1ca839c924a2859cbe7794f36f1337d32f78ac",
+      "pixel_hash": "2f5375f4e8852b3c169ed7ac8296285445afeeb1a0359b962b2a08532062624d",
+      "size": [
+        1200,
+        1600
+      ],
+      "source_family": "img-20220928-wa0092",
+      "group_id": "14a67480abc68d82f604cc95",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_12494e6e0f58053b.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667891251703.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "train",
+      "sha256": "ebf32ef9f440bd7e79d66ca9080a07eb3bc70902c296062ef6e3306ae561f99a",
+      "pixel_hash": "31a8c1c20246c8d65d8d1a76f5f6bb68e97125eaecd0f86f84a8cd0f7473d5a0",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667891251703",
+      "group_id": "15060fe65d44ed5fe17292d2",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/500_ebf32ef9f440bd7e.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG_1667852266885.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "val",
+      "sha256": "1fe04720c4bf77fc0ffecfa659afc269c6b6a0a89c1db2a30c869a28fa5b8cb6",
+      "pixel_hash": "88520f1c042ae5de94d11fe2a34783fbed60dd7e8275122fe5ba1004679ff8fe",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667852266885",
+      "group_id": "15276e898fb9d038639a2da0",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/500_1fe04720c4bf77fc.jpg"
+    },
+    {
+      "path": "archive/data/data/real/500/IMG20221010133404.jpg",
+      "class_name": "OR money",
+      "denomination": "500",
+      "split": "test",
+      "sha256": "f7c06d6f61439f82721032fbf60a326a19a42d45c9746628c6e06fa8c454297b",
+      "pixel_hash": "6947289e048ed300cfca809f3b624b2d44f8e27e2a0c78ba26931032ab792835",
+      "size": [
+        4624,
+        3468
+      ],
+      "source_family": "img20221010133404",
+      "group_id": "15acd0666560064f8cf1e650",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/500_f7c06d6f61439f82.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829694193.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "54c261b15222c767b35b3c11277e563419c34ee212ee2486b5df4ac08f39aed5",
+      "pixel_hash": "aa5fd9915687fbf37d1db4a0dc30af2d005593bc337a0fc6d8843f836e2cc56c",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829694193",
+      "group_id": "010494e00defbe41887cc021",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_54c261b15222c767.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830857782.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "8df6990c1badc1f4c3d699289fbcd73dad78be4ebd0c76a4969e232aadf5612d",
+      "pixel_hash": "e39cd03b8539854cd2c043174791c59485ad8a7cf02cd9bc310ab431d97acba6",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830857782",
+      "group_id": "04c0b1191891c237cfe72609",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_8df6990c1badc1f4.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830683587.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "1965f285e65d64af6653f3315f358ba4ac6b02ccf9511ba8b1ef9ca66d88d3b5",
+      "pixel_hash": "66ccfd1f2643f3e2dafb7f9f76e995cfa4d90d9aff8bf4638338b55ecab363de",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667830683587",
+      "group_id": "05c4ac7ec9871fccacaf8530",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_1965f285e65d64af.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/23.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "398a2cafa600bf9d94763c3979856acda7917f3cbf443b976ff2409fdd632a8e",
+      "pixel_hash": "c173c83091be3bd0f5c8e8515afc39d3081390890b7feebce02e8c0c7c10cf3c",
+      "size": [
+        450,
+        320
+      ],
+      "source_family": "real/2000/23",
+      "group_id": "06a159d56b5b8ceac829046e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_398a2cafa600bf9d.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/8.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "5042cd95f273340cc28e61d299f9d1248a76afb37114ed649f2bbd72c3a6210f",
+      "pixel_hash": "56d63e5e8250e763a6a86d506a8f0bdd2d770535063cd8b7e4ddbf4bfe9cc7f3",
+      "size": [
+        960,
+        386
+      ],
+      "source_family": "real/2000/8",
+      "group_id": "089741e6ff4ae6e4189685f7",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_5042cd95f273340c.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830767254.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "8149f2089f02126b1d64d4e35abc1da2aaccf74ea90a6a70af9ca145d79b80e6",
+      "pixel_hash": "233173a201012c8083973d2d378fa4b7c5ecc8f085dc35295850f368ae0359bd",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830767254",
+      "group_id": "0ac8519a16be66b060e56160",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_8149f2089f02126b.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121903_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "4b7fa01624b60b5d331bd96e09586ebe99d22eb71e094851a26e96923a0d08a3",
+      "pixel_hash": "be3486b2b172294acfd998432394ea61a93fba4f55c9723cae0c2a1b52b45bc4",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_121903_hdr",
+      "group_id": "0c23e4d3d669b2052728c363",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_4b7fa01624b60b5d.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830627177.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "209337310b3ae04a1a91c338611ae33da3603fd34bd93ae0f3012ca49f12eae8",
+      "pixel_hash": "8bf46018f3ebde2f9afe0b70f66f3cdec2032d8720230a2622464551229ee106",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830627177",
+      "group_id": "0c54ff4a9a8c4f58c3608c64",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_209337310b3ae04a.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/1.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "6ce2de9d3eebebe44846ef48558483327df7f899562f877a676626b30f18eaa6",
+      "pixel_hash": "f01c9260dab1bdeed0a6585c5ffba6d9f7f38a541d6acfae2c4e7e494d1f98a6",
+      "size": [
+        450,
+        196
+      ],
+      "source_family": "real/2000/1",
+      "group_id": "0d916ffe0c0bfdecf16a49f9",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_6ce2de9d3eebebe4.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121605_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "7fe98d1e5ac16abc7396cdfbd647818bdc258ff4c168b7e2b81e2cacf1004abf",
+      "pixel_hash": "7f37294570a9e9e83c00de6317154111f8d5444597d93e4954586631bb89cff4",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_121605_hdr",
+      "group_id": "0de0da67e7083a9c38f53e11",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_7fe98d1e5ac16abc.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830450336.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "e3afb154b4537ecb804813fc5aec8d7a8f3b3d217fc87199ce6210c8b6dd1cbd",
+      "pixel_hash": "4d3a28c91287c37cc06835e48f20ae51c785b2ec540dae7ccdc44c5396c37bdd",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830450336",
+      "group_id": "0e6ab555b391e3cfa6da6f60",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_e3afb154b4537ecb.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829756361.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "28d11c7c7e463b9595e7ae9d453c6469918883747e10f8bd436bede147b101cf",
+      "pixel_hash": "1ddb0091401abff6c6681afc13c63b7d176d2b2bf6c7dc35a77fa540471e96e8",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829756361",
+      "group_id": "0fa2835e27f94b64e0b2fafe",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_28d11c7c7e463b95.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121702.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "0b35c9002a0b725d95e9117767e75bf6f76f7359a757bf82df2e766cee925828",
+      "pixel_hash": "953b503aaa460e8b3b9f7b1abcdfce1b6ffc87c4ee09bae24a14b96de1067167",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_121702",
+      "group_id": "10db6cd1d6ec7f4ba660f316",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_0b35c9002a0b725d.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121305_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "0e23b86ed03942ce2a85355d5ffd9ac7fe61b557a59e834da2408dc43699a59f",
+      "pixel_hash": "56a3368fcd868507149bd7b9bdcc67c02aac2a039f08200134115b26a44f085b",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_121305_hdr",
+      "group_id": "136e9997e3d2849adbe4d112",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_0e23b86ed03942ce.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/82.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "a1b90c6c07c35aadfaa78cd0b6e1bf2d318e563416282d9759920f930e0588de",
+      "pixel_hash": "62c914d8a7c5db3155ea025b512efe371c5b584ccfde541840c342a157e35a8c",
+      "size": [
+        332,
+        280
+      ],
+      "source_family": "real/2000/82",
+      "group_id": "13aac035580e98906747c977",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_a1b90c6c07c35aad.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121555_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "fb02cdeb9ffab50613daf3622e258057dff5c938e03926bb66af7b602c4d25a5",
+      "pixel_hash": "9e53271e56c220fa59629b837440ed36ad98cf6106269eea7ea0fe97324d8461",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_121555_hdr",
+      "group_id": "13b8d35aa48185b26042f5fe",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_fb02cdeb9ffab506.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/98.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "30301802ff8cc3cee744580a9505c8bf7ded8e4f6d4234ba29185224161da10b",
+      "pixel_hash": "e18c5fa868f355f6036e8cd3ce25f7b720fce3d4a2c19f205402f083b3725043",
+      "size": [
+        534,
+        220
+      ],
+      "source_family": "real/2000/98",
+      "group_id": "1469e0f99d5901ab6aa8a864",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_30301802ff8cc3ce.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830751321.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "70b24f833855c13a375065b85c1f449aadcf80d6b293f40373d73a188ef33691",
+      "pixel_hash": "7f323de07d04ad12a4339a89b6db4a55d3ab62ce63a4c1073b0db13d04963ebf",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830751321",
+      "group_id": "185f78f4634ddc631bf1f221",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_70b24f833855c13a.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830192506.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "2ce99f90ad0182935917dfba4b64253ce0c6051437240efbb1d8bf7a8e2cebc1",
+      "pixel_hash": "9cbde982d3e6cf5bdde83755706ced24ae5fce5df86cc423fccd0c10b3df7ff7",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830192506",
+      "group_id": "1916a2ca89d989d187a0bc80",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_2ce99f90ad018293.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121908_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "5384d284ff8c1f65d7d9ccc2a037433a98832870e55d5cea9f24ff28bc83417d",
+      "pixel_hash": "dd5f34412707d0e93bfd46b9068a330260e83df4000fd080b000bedeb17ba0c2",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_121908_hdr",
+      "group_id": "195f527d3f5a5c5a04f790c3",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_5384d284ff8c1f65.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121439_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "12494520751870887644f8e5b61c46b91b854629d21225c479d3d414db337e2c",
+      "pixel_hash": "3b4d5d3ca42f7fc5b324aeb2b627bc8f36ee38bf2f6770e0ca3580c1e05ec2b4",
+      "size": [
+        800,
+        1067
+      ],
+      "source_family": "img_20180120_121439_hdr",
+      "group_id": "1a93e996ec6ca01bb275340a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_1249452075187088.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829568909.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "9a411528a49aaeba73139414d0c5a5c6c06d9c005dfad4f2ee884deb5f40b4b3",
+      "pixel_hash": "2be8a044e0826a81e23801f81b50bc4b975b39dbc6d6d0e8d951f4f0fb546539",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829568909",
+      "group_id": "1b080f578b190ae3316ffeca",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_9a411528a49aaeba.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830871310.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "4346faa351a4a723af67ba127d43d5eedb26fe99cc7cafff44ea74f73d235348",
+      "pixel_hash": "0bbdd3d3702167376c53169998739f8361ea5f1619a5a4dcdc583c3853f0ad05",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830871310",
+      "group_id": "1b7f03b3c136adeee07ee2e6",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_4346faa351a4a723.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830759522.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "cd192cff4b6b71638aae7e9e7110c8f0c8664ee8e3af24d1849ad0bc34344ba7",
+      "pixel_hash": "c15846e6e1445a3f61940b1289d3a54f6996f2844120d4998c2692e3ba80de1a",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667830759522",
+      "group_id": "1c3f254b96425c114ddfdefa",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_cd192cff4b6b7163.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829733949.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "300e0f6664fceb3fb7a62d099d8f43227ba20b0c8c253dd3ed5cf06d1775bac5",
+      "pixel_hash": "9cfc217e5880c962fad68731e34a2849268d012b024b1d0adb6184c6244a6bca",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829733949",
+      "group_id": "1cd5314a279466a4ff52938b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_300e0f6664fceb3f.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121319_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "d0108ca361569cf625e772662b014da0d46d908520736b0eb2dc9ad03c272ec8",
+      "pixel_hash": "b9005b27c29655a6297a310bbea4c09ec5cc903fee8d1587f32bd8801d419091",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_121319_hdr",
+      "group_id": "1dfc44a38cca681a6ea00fb1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_d0108ca361569cf6.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830321972.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "9d5e1539b0cae787398b186ce9b6e870cda372afd0d6c139f572923dd1812048",
+      "pixel_hash": "7b9d767132d565ae653bbaca867be357b3aa959a3932b97fec1b0a747a1011fb",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830321972",
+      "group_id": "1e435bb296a6f72f047c9dfc",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_9d5e1539b0cae787.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/24.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "496a90dbd493e92a17b8b937f193182c5cf1c1406b6b3441c619053114fe7482",
+      "pixel_hash": "f2bdf9fd567c42492f02fe419c753cf7d381bd53821e84517da94dffb0ab7550",
+      "size": [
+        700,
+        415
+      ],
+      "source_family": "real/2000/24",
+      "group_id": "1e4785288347ab493eb48886",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_496a90dbd493e92a.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829682215.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "cbee8c83629031da3127d608dc1ad4a591df88729abda2d585285aae85ff3a8e",
+      "pixel_hash": "0c132286568fb6bbd4d91ab09fb88fb6f63b53724f02af391c756e3866ebdd60",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829682215",
+      "group_id": "212a442f6127a5ac45961bf4",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_cbee8c83629031da.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/28.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "1f9cf10b16e5928c48072de224c61f68d9289b03b6b349a0af2846665d463652",
+      "pixel_hash": "3bd62d0889f5fd58f31a5dac2db7ccb371531a3d4ca3066ccefd118046002f3d",
+      "size": [
+        964,
+        831
+      ],
+      "source_family": "real/2000/28",
+      "group_id": "21695ca805b9480a7295c243",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_1f9cf10b16e5928c.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829674708.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "dcd1017a4715ca8b536d1da2bec5a17eeb7a6348a8e1804b8704b0c6dad9e416",
+      "pixel_hash": "7325a599a071f83de2b3a8bb53b308795a8225729ffbdba0f72a8410d6443cac",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829674708",
+      "group_id": "23ae23cda8762d268c397464",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_dcd1017a4715ca8b.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121442_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "b8ed860610111b4c2bbd084110af902b48455db8953f0151c1722d856c98b023",
+      "pixel_hash": "cb1e0813bc03550384f9060a1fc7ba663bb7f4e9870b72e5867dda6bd8a833b8",
+      "size": [
+        800,
+        1067
+      ],
+      "source_family": "img_20180120_121442_hdr",
+      "group_id": "24396a45719e8b285bc76d4a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_b8ed860610111b4c.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830612928.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "eaf2613321b79a8e7b0609a4b3d9c6ddf6a81fa38b591a5586a1cc9e2501af6e",
+      "pixel_hash": "e6de369d91fbb9432097ef5efdbfbcd029bc8abd458f0373652403976d621f1f",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830612928",
+      "group_id": "25820acfb2b753b4e0b1e724",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_eaf2613321b79a8e.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829806247.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "6efda4cb4ce2019f92690d903f342faaa6657f5996e17aa262a6a752451839ff",
+      "pixel_hash": "aa1c40b3234917ea7e314dadb5816773f7a206b09b0e13efb7ca9d5e98c99ef7",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829806247",
+      "group_id": "286e64330da531d23acb664b",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_6efda4cb4ce2019f.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/79.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "017bd2be1c4d46c9a733d3184ebf9814c48a60d90ebd0ed0b7f91e94c148556e",
+      "pixel_hash": "866691fc3a17fa89277aa8379c8f78837cf8aa7a29f627375731a9706aa7dbe5",
+      "size": [
+        768,
+        531
+      ],
+      "source_family": "real/2000/79",
+      "group_id": "28b13eda20998fdd28401037",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/2000_017bd2be1c4d46c9.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829708026.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "9dda3e2b211695003f2aff3832c01a92a1984824fbaf175edd3072a90337db5e",
+      "pixel_hash": "6b6efc3c8a301be9fff4026c809082ed9fc3fa272835bb94e390c08c79555335",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829708026",
+      "group_id": "2904a3929e015322a73c2fe8",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_9dda3e2b21169500.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830053162.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "4aee6925514531588a9f8a93353dcc816533c1553ff889ff815c544793a24015",
+      "pixel_hash": "a72f2c16cde0c3a44b7b7db36e38341384d9a17d47e65426b4ff54d9aea1f101",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830053162",
+      "group_id": "2a47d7ceb77d322f2018aba5",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_4aee692551453158.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830551875.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "d63ff608b736923809b1d8fc8014e82e03c8f9e5d064b81015e77f9ec2c8666a",
+      "pixel_hash": "82472b20c99ddf16eda6fe00e2c0b85900cbd6de9b4809e13235ad592f4563c3",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830551875",
+      "group_id": "2c43ddb42c37d0510685130a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/2000_d63ff608b7369238.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830047231.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "e44d2f9bc43ec423d4e17bde155b6d26816008127fbcb37b9708372427746180",
+      "pixel_hash": "34676656af37f37bd1ade7deefec2d63fd4e1f2bfb5a69171e91cfeb44e98865",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830047231",
+      "group_id": "2ce4db86f2001781657ce08d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_e44d2f9bc43ec423.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121925_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "c45c27731bb4ca849f8b9ec7b7c9626b65b55e94b6feffc8e061f7e48991d80c",
+      "pixel_hash": "11bc5ff4f20e9814199316021a2f43e2fa6888bcc4e0952e5716e3b627e4f8c8",
+      "size": [
+        800,
+        1067
+      ],
+      "source_family": "img_20180120_121925_hdr",
+      "group_id": "2fb851f2aa04c96cb26f8b3e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_c45c27731bb4ca84.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830080287.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "f6abef398a0f72315fb8b75571b1fa9c17736482a56f8ce046c9e2c3b5f5cd02",
+      "pixel_hash": "cd156e415312f16bd5e13795c5c716fa24319115ed1929fa827d15e5e5d61913",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830080287",
+      "group_id": "300c46bb1865f172e8945ac9",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/2000_f6abef398a0f7231.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829768427.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "e28366b0fdae1cfa08eeed5f722b5657ed1f70773bf90a17d7837f694810995d",
+      "pixel_hash": "3127816cc08ae26c1509c1c8d33d11e7e9fbc8b910687a45a9d97bd033297beb",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829768427",
+      "group_id": "30589bc9d66d79a33406fd9c",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_e28366b0fdae1cfa.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/93.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "5b81595467ee134897abf4739f0b1085a8ea05e01f441a21cd91d9ede59bdb17",
+      "pixel_hash": "956290a81bd573ae0d00fe730a97c3050ccacc9bbefec5328162328f0860bcfd",
+      "size": [
+        400,
+        168
+      ],
+      "source_family": "real/2000/93",
+      "group_id": "30a63e68c03161086189b138",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_5b81595467ee1348.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830221908.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "f96228663782b8f64fb0e1d68e7892e6bf3d4daf780d73bb0cfe2a96d23e3cb0",
+      "pixel_hash": "4e15b714de0be4f75e1fac9fac9f8a742a782839aa2ea5226cc11ec98edafcef",
+      "size": [
+        480,
+        640
+      ],
+      "source_family": "img_1667830221908",
+      "group_id": "3691b85eeed4d3fe19b6326a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/2000_f96228663782b8f6.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121523_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "2b96e9ff73a0ed4c3f1df525640f7d6cd9fb3bffedb37f4c450a79edc8519f66",
+      "pixel_hash": "a09f0fd84fb219ab53384c46669287bfaa063297c3328b0cbf573d97334114d5",
+      "size": [
+        800,
+        600
+      ],
+      "source_family": "img_20180120_121523_hdr",
+      "group_id": "375899d5aca80c344f06b368",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_2b96e9ff73a0ed4c.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/87.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "0050208948302fb4066a9eba597d1ab145ecc72230ad991717b39d8fe5895070",
+      "pixel_hash": "fa11f5e103d59339e34aba1fbc66796832ff5d5d35a5c37085ebd7a72cca010e",
+      "size": [
+        1280,
+        720
+      ],
+      "source_family": "real/2000/87",
+      "group_id": "378a49ba8bf06c7a4127a17f",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/2000_0050208948302fb4.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829594305.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "bee121796367d1075d4f708bafe5a1555d48536cac2e6ac4c4ff3c2de0814393",
+      "pixel_hash": "c58ba35ccd20a046cdf795c8d5b726c4d5284052ccbb1d652ca38e9098ebbd3d",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829594305",
+      "group_id": "38695a42490a87654c8d02b5",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_bee121796367d107.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829811612.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "286186bf730017ba21c5663670de98f4c3b26ed17c59390588f7e8b02478efb3",
+      "pixel_hash": "a271351325ee89f4e9c54fae6936fb55217101128d142e497fda6367f3f89838",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829811612",
+      "group_id": "3916d190fa2a7027c1b11d7e",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/2000_286186bf730017ba.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830149104.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "7d6006253b47451554a669cb5280ea4d260cf75b0477ca27ffb9df6b8885ed1a",
+      "pixel_hash": "97282091093949edd65b5bf07fcb040aa0a66b571e0e801cb1872af6ec844ee6",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830149104",
+      "group_id": "394d0f287f73f94a1706ad3a",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_7d6006253b474515.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_20180120_121230_HDR.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "148ab5ab1bc155e40b6d8e28d983d020387083d3768b8a9d01f48c1089029462",
+      "pixel_hash": "42c689f9e9f8158694899978b965dcbb05a8f319d85ea371c0af68a3701b946e",
+      "size": [
+        800,
+        1067
+      ],
+      "source_family": "img_20180120_121230_hdr",
+      "group_id": "3cf1b7fb180375856e2a23af",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_148ab5ab1bc155e4.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667829786970.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "321202a3be87b839338686f383d6024fbfe232bed19d908911fa1f44b4e33b03",
+      "pixel_hash": "8ee8294bfc160422efcaf63945e2d606ff58b59f10545e836e2a20f3abe15a4a",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667829786970",
+      "group_id": "41258d2e7ef8f2dccf0da229",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/2000_321202a3be87b839.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/IMG_1667830534720.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "0a3437a3443aaa4e762b6522c2df73ec0f0ff59715d3bd074672d76f8ec8bfe8",
+      "pixel_hash": "97ea33df52e8d68d1e2b4e3b5b2f944ffc08d8d3b8150050b102cbd517f765ad",
+      "size": [
+        640,
+        480
+      ],
+      "source_family": "img_1667830534720",
+      "group_id": "4176a678c039232dafc63128",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_0a3437a3443aaa4e.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/59.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "train",
+      "sha256": "3644fbc97dfb6db240160ac7eca3cb2b2d01873c682ee7567aba4b47a01537f0",
+      "pixel_hash": "394f893290fc2d4c63f06cae84f20f1f2256bb91572a8abbac8d63933803f34c",
+      "size": [
+        850,
+        550
+      ],
+      "source_family": "real/2000/59",
+      "group_id": "43030d06bd5e00df3262a03d",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "train/OR money/2000_3644fbc97dfb6db2.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/12.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "val",
+      "sha256": "6a05b7c02c75026901d12086497eb1a74f20dfceb88efaaa6c98845c5146a6df",
+      "pixel_hash": "43a7477cf6f1e9995edec75353d61ab4e8f075981232184afab9c608315b506c",
+      "size": [
+        355,
+        155
+      ],
+      "source_family": "real/2000/12",
+      "group_id": "4ac6f9e1492d1dc2820cd3c3",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "val/OR money/2000_6a05b7c02c750269.jpg"
+    },
+    {
+      "path": "archive/data/data/real/2000/81.jpg",
+      "class_name": "OR money",
+      "denomination": "2000",
+      "split": "test",
+      "sha256": "7ff0144a2b2b49b205ef028c61c5c28a16dcba7c1d8248cc0d79194babee8324",
+      "pixel_hash": "5f99a93d5061e61c5a0ccf449bca2ab6f378e16e258b53d26b89b53e4f4c8bac",
+      "size": [
+        600,
+        338
+      ],
+      "source_family": "real/2000/81",
+      "group_id": "4da358441f0e57fb132dcff1",
+      "is_augmented": false,
+      "label_status": "dataset_folder_provisional",
+      "physical_identity_verified": false,
+      "destination": "test/OR money/2000_7ff0144a2b2b49b2.jpg"
+    },
+    {
+      "path": "101_ObjectCategories/camera/image_0045.jpg",
+      "class_name": "not a banknote",
+      "sha256": "dc44743b2b407ac3d5979ef2e668d8c876119024643c885a9d1b24ffc454917a",
+      "pixel_hash": "0cc59a2b11a3686015a533191602b618d5bc0da791a8655ea19406bf40497c14",
+      "split": "train",
+      "group_id": "caltech_camera",
+      "destination": "train/not a banknote/camera_image_0045.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/camera/image_0045.jpg",
+      "source_category": "camera"
+    },
+    {
+      "path": "101_ObjectCategories/camera/image_0044.jpg",
+      "class_name": "not a banknote",
+      "sha256": "6db3af674ba41e7e139eb7b5e16b1ab916fbfc666aa3ffe2e7dfb262301190f5",
+      "pixel_hash": "89239ff420f13afca43c3a6d25e4a815c6d93e405518cf94f64e2459deec1ae3",
+      "split": "train",
+      "group_id": "caltech_camera",
+      "destination": "train/not a banknote/camera_image_0044.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/camera/image_0044.jpg",
+      "source_category": "camera"
+    },
+    {
+      "path": "101_ObjectCategories/cellphone/image_0002.jpg",
+      "class_name": "not a banknote",
+      "sha256": "511bc6cf5f345a2ed13f4d19a6944ea4054f71015bdedc51a0decbd9015ebed9",
+      "pixel_hash": "675cd7ddc94b79e759f3e0f83e4217100f41ca0a5a70b9d28f2f837edab02f8e",
+      "split": "train",
+      "group_id": "caltech_cellphone",
+      "destination": "train/not a banknote/cellphone_image_0002.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/cellphone/image_0002.jpg",
+      "source_category": "cellphone"
+    },
+    {
+      "path": "101_ObjectCategories/cellphone/image_0004.jpg",
+      "class_name": "not a banknote",
+      "sha256": "2a465dc4723ee29e186978eb4821b312d31949a0734222d662f8861151987cb2",
+      "pixel_hash": "18239f0d100225c82af222cc0f6258aaba97e60a1f050e2b45774c39284896e4",
+      "split": "train",
+      "group_id": "caltech_cellphone",
+      "destination": "train/not a banknote/cellphone_image_0004.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/cellphone/image_0004.jpg",
+      "source_category": "cellphone"
+    },
+    {
+      "path": "101_ObjectCategories/laptop/image_0037.jpg",
+      "class_name": "not a banknote",
+      "sha256": "e9c9ed9a33431a44461288b76cb1bc4b970b1f7ea57d9b6ce39a83f125b60849",
+      "pixel_hash": "469a39bc07fe2f89065539aa172f2e8b6ce476401832398be5ae82287a3a7e42",
+      "split": "train",
+      "group_id": "caltech_laptop",
+      "destination": "train/not a banknote/laptop_image_0037.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/laptop/image_0037.jpg",
+      "source_category": "laptop"
+    },
+    {
+      "path": "101_ObjectCategories/laptop/image_0014.jpg",
+      "class_name": "not a banknote",
+      "sha256": "1a79b8fc5990989d0eccc6ad6ca049f47550aa856c06d28aec8f8170809239b5",
+      "pixel_hash": "077968187e046e7cd04345c2c519840cc8f3e05a147cdd5b921790cc24fd86af",
+      "split": "train",
+      "group_id": "caltech_laptop",
+      "destination": "train/not a banknote/laptop_image_0014.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/laptop/image_0014.jpg",
+      "source_category": "laptop"
+    },
+    {
+      "path": "101_ObjectCategories/cup/image_0017.jpg",
+      "class_name": "not a banknote",
+      "sha256": "1394a516e565f75c00cb413827257bf1b3c65a36b71196f7ca3e390b7dfc3bde",
+      "pixel_hash": "c8e5ac2edf2cfa71ac905f3e73215530f1487fa5924eea2414e656c24f33372f",
+      "split": "train",
+      "group_id": "caltech_cup",
+      "destination": "train/not a banknote/cup_image_0017.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/cup/image_0017.jpg",
+      "source_category": "cup"
+    },
+    {
+      "path": "101_ObjectCategories/cup/image_0012.jpg",
+      "class_name": "not a banknote",
+      "sha256": "e07b66bb6a3c4cecd93022fcffb1a09b605307022f5ef0e449f09965eeda384a",
+      "pixel_hash": "bfe4c0f9af574dd40e10e202fbca3459531c24651afa0b7e61bb851e0bb66558",
+      "split": "train",
+      "group_id": "caltech_cup",
+      "destination": "train/not a banknote/cup_image_0012.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/cup/image_0012.jpg",
+      "source_category": "cup"
+    },
+    {
+      "path": "101_ObjectCategories/scissors/image_0004.jpg",
+      "class_name": "not a banknote",
+      "sha256": "5605083460da998eb8fe7ca1f7157cdc01451f65e1c4b5dc118270d158d21896",
+      "pixel_hash": "c43597c72213ebb6d2e7b48bb7158ed0ce908d0404eac5eb762f27915246e3fc",
+      "split": "train",
+      "group_id": "caltech_scissors",
+      "destination": "train/not a banknote/scissors_image_0004.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/scissors/image_0004.jpg",
+      "source_category": "scissors"
+    },
+    {
+      "path": "101_ObjectCategories/scissors/image_0008.jpg",
+      "class_name": "not a banknote",
+      "sha256": "f8d85917711493143529cc89149112b187383464c7ba8c169bf8dd2f5f0426e4",
+      "pixel_hash": "d9d8896b0709cbf6578202fc5d219a834c9b874a8f873d12a84678daee5b0ee9",
+      "split": "train",
+      "group_id": "caltech_scissors",
+      "destination": "train/not a banknote/scissors_image_0008.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/scissors/image_0008.jpg",
+      "source_category": "scissors"
+    },
+    {
+      "path": "101_ObjectCategories/stapler/image_0006.jpg",
+      "class_name": "not a banknote",
+      "sha256": "f913187657ed16b41b7ed5cdeb1737db03bb5a99beefb21e7fc33c1a4a84d9fb",
+      "pixel_hash": "35c47e0a06bc32fb2f707d722e3afecf61c36df7e8f332a669ca4c955e780de6",
+      "split": "train",
+      "group_id": "caltech_stapler",
+      "destination": "train/not a banknote/stapler_image_0006.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/stapler/image_0006.jpg",
+      "source_category": "stapler"
+    },
+    {
+      "path": "101_ObjectCategories/stapler/image_0007.jpg",
+      "class_name": "not a banknote",
+      "sha256": "c7aaf397465e11011177cead1e6f285ca0241ab45bf125baef42003bb1e82686",
+      "pixel_hash": "65d36fa9b878cf5a34f35a4783a16c998def7c755a2b4564554f8b03e2a95c9c",
+      "split": "train",
+      "group_id": "caltech_stapler",
+      "destination": "train/not a banknote/stapler_image_0007.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/stapler/image_0007.jpg",
+      "source_category": "stapler"
+    },
+    {
+      "path": "101_ObjectCategories/watch/image_0002.jpg",
+      "class_name": "not a banknote",
+      "sha256": "36217698bc25e4a1fb2bb53f3e8fc6a456cad96491bb8129c35a83f8f6bf3985",
+      "pixel_hash": "7bcd5ec3c16f72cfd128feb8f14d4e399b397199d51c5e8280b6ad7187ee2d3a",
+      "split": "val",
+      "group_id": "caltech_watch",
+      "destination": "val/not a banknote/watch_image_0002.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/watch/image_0002.jpg",
+      "source_category": "watch"
+    },
+    {
+      "path": "101_ObjectCategories/watch/image_0147.jpg",
+      "class_name": "not a banknote",
+      "sha256": "046a6f524c1a9d3e09a61b2df1469f08e053a35c9dae9c336833e13c0ad5944e",
+      "pixel_hash": "be0bd2e448799759bcdaa44f9ffc68a1d2d2d2c17fa643b80a60eec905fc61e2",
+      "split": "val",
+      "group_id": "caltech_watch",
+      "destination": "val/not a banknote/watch_image_0147.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/watch/image_0147.jpg",
+      "source_category": "watch"
+    },
+    {
+      "path": "101_ObjectCategories/binocular/image_0026.jpg",
+      "class_name": "not a banknote",
+      "sha256": "70e3a5c88fc51c238754b5c1deab41b8adfd6b703cef4660db4f1e1a55c7de30",
+      "pixel_hash": "4136be5aef724f5ef71b02433ca98688ff347d8033b3b3fc77233b15f4f8ff85",
+      "split": "val",
+      "group_id": "caltech_binocular",
+      "destination": "val/not a banknote/binocular_image_0026.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/binocular/image_0026.jpg",
+      "source_category": "binocular"
+    },
+    {
+      "path": "101_ObjectCategories/binocular/image_0018.jpg",
+      "class_name": "not a banknote",
+      "sha256": "c33e5285a7828d5c00922e176811c9852a296d6d6607ba4c9c4c18c381e342a4",
+      "pixel_hash": "173e38b18ee13c1a15b5697d9f89a54c7f3b07181a7f2acc9334e616a183c232",
+      "split": "val",
+      "group_id": "caltech_binocular",
+      "destination": "val/not a banknote/binocular_image_0018.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/binocular/image_0018.jpg",
+      "source_category": "binocular"
+    },
+    {
+      "path": "101_ObjectCategories/headphone/image_0024.jpg",
+      "class_name": "not a banknote",
+      "sha256": "814a3dfa34875a2fd524edc8b8b2b382abf21b87bc9f6d1337563367bbd99058",
+      "pixel_hash": "20a146509b400ed52de217a868d486da74bb4ac7b1dd19eb5060e05769cc691c",
+      "split": "test",
+      "group_id": "caltech_headphone",
+      "destination": "test/not a banknote/headphone_image_0024.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/headphone/image_0024.jpg",
+      "source_category": "headphone"
+    },
+    {
+      "path": "101_ObjectCategories/headphone/image_0004.jpg",
+      "class_name": "not a banknote",
+      "sha256": "473b4611fa1e4053ae9423e3fc808223841cc410edaf34b557a74db56be0d853",
+      "pixel_hash": "5d15eb7646e2dc49154518528daeb70f6fbd2a3c8d4e0d3affd4fb7fb18db38f",
+      "split": "test",
+      "group_id": "caltech_headphone",
+      "destination": "test/not a banknote/headphone_image_0004.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/headphone/image_0004.jpg",
+      "source_category": "headphone"
+    },
+    {
+      "path": "101_ObjectCategories/soccer_ball/image_0003.jpg",
+      "class_name": "not a banknote",
+      "sha256": "7b85c6257d87deacd1feef1e53bd591af4651c51ee44388661c3daf81894adc2",
+      "pixel_hash": "4d4eaffbde335ad2a977cfab761043c05ecfcd429aa49c87b46945e45478a9fb",
+      "split": "train",
+      "group_id": "caltech_soccer_ball",
+      "destination": "train/not a banknote/soccer_ball_image_0003.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/soccer_ball/image_0003.jpg",
+      "source_category": "soccer_ball"
+    },
+    {
+      "path": "101_ObjectCategories/soccer_ball/image_0005.jpg",
+      "class_name": "not a banknote",
+      "sha256": "e8257ddd3a6a06b02eb9ac055ccc4ed4e75dd2415337d0abc094f52f86acd02a",
+      "pixel_hash": "51f2680a56c9dfc86cd847b1473a55fe2627e4a9731b0f9c4d5d541a549a4def",
+      "split": "train",
+      "group_id": "caltech_soccer_ball",
+      "destination": "train/not a banknote/soccer_ball_image_0005.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/soccer_ball/image_0005.jpg",
+      "source_category": "soccer_ball"
+    },
+    {
+      "path": "101_ObjectCategories/umbrella/image_0070.jpg",
+      "class_name": "not a banknote",
+      "sha256": "58a615d94fcb64d0e4484a701597003db42b657c919ab8739561af40bde9d1c7",
+      "pixel_hash": "a941111f29eaf8ffe6c703d8ab173d5e481e8a3cddf951fe14eb8b82a3404bca",
+      "split": "train",
+      "group_id": "caltech_umbrella",
+      "destination": "train/not a banknote/umbrella_image_0070.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/umbrella/image_0070.jpg",
+      "source_category": "umbrella"
+    },
+    {
+      "path": "101_ObjectCategories/umbrella/image_0001.jpg",
+      "class_name": "not a banknote",
+      "sha256": "8c44679868e7ec0c783644e5ced299798ccdd20e6d1bf05f9c20bc4a01b184f3",
+      "pixel_hash": "a9d9bb4e213b057037b30509fdd300a552b7a72c2ba226a4a8c9569461e6c241",
+      "split": "train",
+      "group_id": "caltech_umbrella",
+      "destination": "train/not a banknote/umbrella_image_0001.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/umbrella/image_0001.jpg",
+      "source_category": "umbrella"
+    },
+    {
+      "path": "101_ObjectCategories/chair/image_0015.jpg",
+      "class_name": "not a banknote",
+      "sha256": "2bfed86ad41cc3eabcc3641d0750a7060d1c669da4020a4348a2d1fd4b79dcc5",
+      "pixel_hash": "49307d718f7f71e0733638b48cc47a033ed713c462a19d91b88dad2bc7d8f085",
+      "split": "train",
+      "group_id": "caltech_chair",
+      "destination": "train/not a banknote/chair_image_0015.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/chair/image_0015.jpg",
+      "source_category": "chair"
+    },
+    {
+      "path": "101_ObjectCategories/chair/image_0057.jpg",
+      "class_name": "not a banknote",
+      "sha256": "9629f9dabf61c723b26dc0997fb2dcb8faaff5568f771543af6300ff38195e6b",
+      "pixel_hash": "909cdc14d388923bc86993b8e225163917de11ae9a333de274dadaf88b6b5608",
+      "split": "train",
+      "group_id": "caltech_chair",
+      "destination": "train/not a banknote/chair_image_0057.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/chair/image_0057.jpg",
+      "source_category": "chair"
+    },
+    {
+      "path": "101_ObjectCategories/lamp/image_0054.jpg",
+      "class_name": "not a banknote",
+      "sha256": "e10ca4246732d9abab81ee3cf1cdcb6ec29fad5abad6a1ae3c02e824a4dbc4c4",
+      "pixel_hash": "c51c309c4779a3e69e4fbe5de33ef1af9e76d341eae7b58541a04f42a84672ec",
+      "split": "train",
+      "group_id": "caltech_lamp",
+      "destination": "train/not a banknote/lamp_image_0054.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/lamp/image_0054.jpg",
+      "source_category": "lamp"
+    },
+    {
+      "path": "101_ObjectCategories/lamp/image_0027.jpg",
+      "class_name": "not a banknote",
+      "sha256": "32b133fa2ffce06b1939cdce0aafc0d182e9c3a65d6e8dedc29f131072db844d",
+      "pixel_hash": "861330aa1c82b441fe65bc47f887eb4794b6978e6412684999d451d250f4ce93",
+      "split": "train",
+      "group_id": "caltech_lamp",
+      "destination": "train/not a banknote/lamp_image_0027.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/lamp/image_0027.jpg",
+      "source_category": "lamp"
+    },
+    {
+      "path": "101_ObjectCategories/wrench/image_0033.jpg",
+      "class_name": "not a banknote",
+      "sha256": "9b78287912e00d132a72c406c84ec04d0455f299aee75e1037154735982b87ad",
+      "pixel_hash": "1cc4377dec25bab31426ea88428a86ecc09ab3e4f0eb72f04fc5a9032b36328a",
+      "split": "test",
+      "group_id": "caltech_wrench",
+      "destination": "test/not a banknote/wrench_image_0033.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/wrench/image_0033.jpg",
+      "source_category": "wrench"
+    },
+    {
+      "path": "101_ObjectCategories/wrench/image_0012.jpg",
+      "class_name": "not a banknote",
+      "sha256": "c1da6dfc123662adce67d0b38ed016fedc9daa1462a0b319f2b19f83b4501642",
+      "pixel_hash": "b8b0114e35874fcd091af2858c2bb1df89788547c0b5a260a15dc428a80175fb",
+      "split": "test",
+      "group_id": "caltech_wrench",
+      "destination": "test/not a banknote/wrench_image_0012.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/wrench/image_0012.jpg",
+      "source_category": "wrench"
+    },
+    {
+      "path": "101_ObjectCategories/pizza/image_0001.jpg",
+      "class_name": "not a banknote",
+      "sha256": "690aaec2e238b2fd3817be782b8c63403a03f7e83e6db60c99588280c7e2a7c3",
+      "pixel_hash": "cc9594766db770f794effaa763133f24725cd1bda59c39c0123b82546617f31a",
+      "split": "train",
+      "group_id": "caltech_pizza",
+      "destination": "train/not a banknote/pizza_image_0001.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/pizza/image_0001.jpg",
+      "source_category": "pizza"
+    },
+    {
+      "path": "101_ObjectCategories/pizza/image_0002.jpg",
+      "class_name": "not a banknote",
+      "sha256": "e158d7f64fbe017417f2189cea4d9139e07058652671ad923adb88724922fbc3",
+      "pixel_hash": "348631694a3ff2946d4361c088a1a9ec821be0fb6447f52d4c44b7c24a86ae0c",
+      "split": "train",
+      "group_id": "caltech_pizza",
+      "destination": "train/not a banknote/pizza_image_0002.jpg",
+      "source": "Caltech-101",
+      "source_url": "https://data.caltech.edu/records/mzrjq-6wc02",
+      "source_archive_member": "101_ObjectCategories/pizza/image_0002.jpg",
+      "source_category": "pizza"
+    }
+  ],
+  "archive_index_sha256": "cdf779cfbe8cb82a5917c0ac1d26b01f0e120b2c84cd0e7fac140ae3c4f2542c",
+  "archived_banknote_files": 7445,
+  "max_per_label_denomination": 55,
+  "excluded_family_or_candidate_counts": {
+    "reserved_or_historically_conflicting_family": 33,
+    "no_eligible_representative": 14,
+    "ambiguous_family_stratum": 22,
+    "near_selected_representative": 21
+  },
+  "min_d4_phash_distance": 11,
+  "previous_pilot_banknote_paths_reused": 22,
+  "selection": "One representative per normalized filename family. Prefer originals. Match real counts to available fake counts per denomination. Preserve known pilot split when linked. Exclude prior replication candidates and visually near representatives. Fixed seed, no model predictions used.",
+  "limitations": [
+    "Folder labels, physical identity, and denomination metadata are unverified.",
+    "Some families contain only augmented images. Near-duplicate screening cannot establish physical independence.",
+    "The non-banknote examples and some pilot banknotes were previously used."
+  ]
+}

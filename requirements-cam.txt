@@ -1,0 +1,4 @@
+grad-cam==1.5.7
+ttach==0.0.3
+opencv-python-headless==5.1.0.95
+ocrmac==1.0.1; sys_platform == "darwin"

@@ -1,0 +1,4239 @@
+{
+  "historical": {
+    "cnn": {
+      "accuracy": {
+        "mean": 0.5555555555555556,
+        "sd": 0.12729376930432887,
+        "defined_runs": 3
+      },
+      "fake_recall": {
+        "mean": 0.75,
+        "sd": 0.0,
+        "defined_runs": 3
+      },
+      "real_false_alarm_rate": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "defined_runs": 3
+      }
+    },
+    "resnet18": {
+      "accuracy": {
+        "mean": 0.8333333333333334,
+        "sd": 0.08333333333333331,
+        "defined_runs": 3
+      },
+      "fake_recall": {
+        "mean": 0.6666666666666666,
+        "sd": 0.38188130791298663,
+        "defined_runs": 3
+      },
+      "real_false_alarm_rate": {
+        "mean": 0.16666666666666666,
+        "sd": 0.14433756729740646,
+        "defined_runs": 3
+      }
+    },
+    "efficientnet_v2_s": {
+      "accuracy": {
+        "mean": 0.8055555555555557,
+        "sd": 0.048112522432468836,
+        "defined_runs": 3
+      },
+      "fake_recall": {
+        "mean": 0.6666666666666666,
+        "sd": 0.14433756729740646,
+        "defined_runs": 3
+      },
+      "real_false_alarm_rate": {
+        "mean": 0.08333333333333333,
+        "sd": 0.14433756729740646,
+        "defined_runs": 3
+      }
+    },
+    "dinov3_vits16": {
+      "accuracy": {
+        "mean": 0.8888888888888888,
+        "sd": 0.048112522432468774,
+        "defined_runs": 3
+      },
+      "fake_recall": {
+        "mean": 0.8333333333333334,
+        "sd": 0.14433756729740646,
+        "defined_runs": 3
+      },
+      "real_false_alarm_rate": {
+        "mean": 0.16666666666666666,
+        "sd": 0.14433756729740646,
+        "defined_runs": 3
+      }
+    }
+  },
+  "historical_log_sha256": "ea2af3bcd9ca6bfb6303a4d8d51a8ebc20b7f7d9473d31954a64fd35f1664114",
+  "manifests": {
+    "dataset_threeclass": "2e1b5c39c44855878e89b6f2bccf2d2d7b4681319f92755f30afe633f49b8da8",
+    "dataset_archive_course_v3": "4338f03e010fc3b69aacbc4a4c390e3f67b3d5007b6bfdb2b592fa0a0bec5912"
+  },
+  "new_predictions_reproduced": true,
+  "backend": "cpu",
+  "historical_test_screen": {
+    "test/OR money/476-3_1780x.jpg": {
+      "min_phash_distance": 18,
+      "nearest": "train/fake money/500_7847fd4f7aca7625.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg": {
+      "min_phash_distance": 14,
+      "nearest": "train/OR money/500_8665d5694b38ef9a.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg": {
+      "min_phash_distance": 12,
+      "nearest": "train/OR money/500_8665d5694b38ef9a.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg": {
+      "min_phash_distance": 20,
+      "nearest": "train/OR money/2000_4aee692551453158.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg": {
+      "min_phash_distance": 14,
+      "nearest": "val/OR money/2000_f96228663782b8f6.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/fake money/images (1).jpeg": {
+      "min_phash_distance": 18,
+      "nearest": "train/OR money/2000_c45c27731bb4ca84.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/fake money/images (10).jpeg": {
+      "min_phash_distance": 18,
+      "nearest": "train/OR money/100_a28e640afd13c787.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/fake money/images (9).jpeg": {
+      "min_phash_distance": 18,
+      "nearest": "train/OR money/2000_398a2cafa600bf9d.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/not a banknote/headphone_image_0024.jpg": {
+      "min_phash_distance": 16,
+      "nearest": "train/OR money/500_ebf32ef9f440bd7e.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/not a banknote/headphone_image_0004.jpg": {
+      "min_phash_distance": 18,
+      "nearest": "train/not a banknote/stapler_image_0007.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/not a banknote/wrench_image_0033.jpg": {
+      "min_phash_distance": 18,
+      "nearest": "train/fake money/200_e8f66abcbec0b694.png",
+      "exact_or_known_group": false,
+      "use": true
+    },
+    "test/not a banknote/wrench_image_0012.jpg": {
+      "min_phash_distance": 20,
+      "nearest": "train/OR money/500_0aa16f8dfc75cc42.jpg",
+      "exact_or_known_group": false,
+      "use": true
+    }
+  },
+  "shared_test_images": [
+    "test/not a banknote/headphone_image_0004.jpg",
+    "test/not a banknote/headphone_image_0024.jpg",
+    "test/not a banknote/wrench_image_0012.jpg",
+    "test/not a banknote/wrench_image_0033.jpg"
+  ],
+  "fixed_checkpoint_means": {
+    "cnn": {
+      "old": {
+        "accuracy": 0.7777777777777778,
+        "fake_recall": 0.8333333333333334,
+        "n_images": 12
+      },
+      "old_screened": {
+        "accuracy": 0.7777777777777778,
+        "fake_recall": 0.8333333333333334,
+        "n_images": 12
+      },
+      "new": {
+        "accuracy": 0.779874213836478,
+        "fake_recall": 0.8611111111111112,
+        "n_images": 53
+      }
+    },
+    "resnet18": {
+      "old": {
+        "accuracy": 0.6388888888888888,
+        "fake_recall": 0.25,
+        "n_images": 12
+      },
+      "old_screened": {
+        "accuracy": 0.6388888888888888,
+        "fake_recall": 0.25,
+        "n_images": 12
+      },
+      "new": {
+        "accuracy": 0.8679245283018868,
+        "fake_recall": 0.8888888888888888,
+        "n_images": 53
+      }
+    },
+    "efficientnet_v2_s": {
+      "old": {
+        "accuracy": 0.6666666666666666,
+        "fake_recall": 0.5,
+        "n_images": 12
+      },
+      "old_screened": {
+        "accuracy": 0.6666666666666666,
+        "fake_recall": 0.5,
+        "n_images": 12
+      },
+      "new": {
+        "accuracy": 0.9056603773584906,
+        "fake_recall": 0.9305555555555556,
+        "n_images": 53
+      }
+    },
+    "dinov3_vits16": {
+      "old": {
+        "accuracy": 0.6111111111111112,
+        "fake_recall": 0.5,
+        "n_images": 12
+      },
+      "old_screened": {
+        "accuracy": 0.6111111111111112,
+        "fake_recall": 0.5,
+        "n_images": 12
+      },
+      "new": {
+        "accuracy": 0.89937106918239,
+        "fake_recall": 0.9166666666666666,
+        "n_images": 53
+      }
+    }
+  },
+  "runs": [
+    {
+      "model": "cnn",
+      "seed": 42,
+      "checkpoint_hash": "afd0ac87102274e41c236c05ae27e4471ba6df05cb04675481ce4d6020f86dc8",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 0
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 2
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 0
+        }
+      ]
+    },
+    {
+      "model": "cnn",
+      "seed": 43,
+      "checkpoint_hash": "547cb306a1ff49bb6c0d5aed5abd79de48f5d7302de68c14941ec85b478dc834",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 2
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 0
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 2
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 0
+        }
+      ]
+    },
+    {
+      "model": "cnn",
+      "seed": 44,
+      "checkpoint_hash": "fa0b1b5ddf96eb14190114d7d9042a867f0db8ea5d81a7b59a1dca219e8cd388",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 0
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 2
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 0
+        }
+      ]
+    },
+    {
+      "model": "resnet18",
+      "seed": 42,
+      "checkpoint_hash": "da69861a8b4f197634b7221be024fbf077ad03612279f20534a2db3fa2253f3f",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    },
+    {
+      "model": "resnet18",
+      "seed": 43,
+      "checkpoint_hash": "cb6b9ffb15ab5586851405b5c1b28310370389c946db02bfe0efa33e138e744a",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    },
+    {
+      "model": "resnet18",
+      "seed": 44,
+      "checkpoint_hash": "045801c3e670d598c70a607e8ac9c23e7a7b123e01ac6f19675dcd9480e53b8b",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    },
+    {
+      "model": "efficientnet_v2_s",
+      "seed": 42,
+      "checkpoint_hash": "6fd77028b1bb8384311869c1d6da5ca06072225e2f3b0ea24751c6aad5d6eeae",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    },
+    {
+      "model": "efficientnet_v2_s",
+      "seed": 43,
+      "checkpoint_hash": "48b6040bad3dd5eb42ab252674be3fb8f0b86bf255812d9a6a23fc1fe854ca95",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    },
+    {
+      "model": "efficientnet_v2_s",
+      "seed": 44,
+      "checkpoint_hash": "d1f5c8078f46c207c5a2f76e4753cdb1a0ac2bb36cd6d20b3c3ccee6ab437681",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    },
+    {
+      "model": "dinov3_vits16",
+      "seed": 42,
+      "checkpoint_hash": "239543cb4ad4e01536389dfc898bb399fa03f1a434b03c1539fd074d7b76ca01",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    },
+    {
+      "model": "dinov3_vits16",
+      "seed": 43,
+      "checkpoint_hash": "8bde26a7abae5d75ac84b526ca016a6eda0e39506a3218196d31ae4dda39ce8f",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    },
+    {
+      "model": "dinov3_vits16",
+      "seed": 44,
+      "checkpoint_hash": "9d3985187f9bf9960dec7abfb4eff8aca1995f627d8caef239e41151d4e039a9",
+      "old": [
+        {
+          "path": "test/fake money/WhatsApp Image 2024-07-02 at 20.27.27_f306a7f7.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (1).jpeg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/images (10).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/images (9).jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/476-3_1780x.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.02_40ddf85f.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.05_c3ca7a0d.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/WhatsApp Image 2024-07-02 at 20.27.08_1f2ce73a.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ],
+      "new": [
+        {
+          "path": "test/fake money/100_4b6f91bfcd036823.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/10_7aced8b033e23ed4.jpeg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_127e3dca4cb3a7c9.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_166df5242a97068c.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_26369bccb1b9df38.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_64e4be101b99f1cb.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6d6d47a817d82967.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6ed5ae16eb6d0ce8.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_6fc7d551e6f18f99.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_9e65100c87d37d39.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_adb69cf5226c8af1.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_d6a5d79aa84462dc.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/2000_e4af00e1c801f889.png",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_12ede66445aa3822.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_208cd4dbd657ca65.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_34e56c3abc9ef0d9.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_3d95eb6e9b9eaeb0.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_50e8102ca2053450.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_519710e042c71ba4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_794608e5239498a4.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_8fde4d7ab04de112.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_92c7017763de5a1b.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/fake money/500_c8ec7e37f9739637.jpg",
+          "label": 0,
+          "prediction": 1
+        },
+        {
+          "path": "test/fake money/500_d6d42f3f343a52b2.jpg",
+          "label": 0,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/100_f5a765f1ce4bb123.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/10_b4db1bc07df18d65.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_0a3437a3443aaa4e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2b96e9ff73a0ed4c.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_2ce99f90ad018293.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7d6006253b474515.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_7ff0144a2b2b49b2.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/2000_9dda3e2b21169500.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_cbee8c83629031da.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_dcd1017a4715ca8b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e28366b0fdae1cfa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_e44d2f9bc43ec423.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/2000_eaf2613321b79a8e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/200_57fbf1a862e6bdb9.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_09a7329f2b98b880.jpg",
+          "label": 1,
+          "prediction": 0
+        },
+        {
+          "path": "test/OR money/500_12494e6e0f58053b.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_1f18e8e8b591f522.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_20bf6eabaa068884.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_3ae3a6053d156510.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_477c02d57f095442.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_88ca00ccfea95b1e.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_a0d221f9a6633765.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_ac325e7d5d387aaa.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_eb6ddf0832776915.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/OR money/500_f7c06d6f61439f82.jpg",
+          "label": 1,
+          "prediction": 1
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0004.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/headphone_image_0024.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0012.jpg",
+          "label": 2,
+          "prediction": 2
+        },
+        {
+          "path": "test/not a banknote/wrench_image_0033.jpg",
+          "label": 2,
+          "prediction": 2
+        }
+      ]
+    }
+  ]
+}

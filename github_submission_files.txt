@@ -1,0 +1,359 @@
+moneyDetectionFlassfier.ipynb
+README.md
+requirements-models.txt
+requirements-cam.txt
+github_submission_files.txt
+docs/Banknote_Image_Classification_and_Issuer_Review.docx
+dataset_archive_course_v3/image_paths.csv
+dataset_archive_course_v3/manifest.json
+dataset_archive_course_v3/prepare_split.py
+dataset_archive_course_v3/test/OR money/100_f5a765f1ce4bb123.jpg
+dataset_archive_course_v3/test/OR money/10_b4db1bc07df18d65.jpg
+dataset_archive_course_v3/test/OR money/2000_0a3437a3443aaa4e.jpg
+dataset_archive_course_v3/test/OR money/2000_2b96e9ff73a0ed4c.jpg
+dataset_archive_course_v3/test/OR money/2000_2ce99f90ad018293.jpg
+dataset_archive_course_v3/test/OR money/2000_7d6006253b474515.jpg
+dataset_archive_course_v3/test/OR money/2000_7ff0144a2b2b49b2.jpg
+dataset_archive_course_v3/test/OR money/2000_9dda3e2b21169500.jpg
+dataset_archive_course_v3/test/OR money/2000_cbee8c83629031da.jpg
+dataset_archive_course_v3/test/OR money/2000_dcd1017a4715ca8b.jpg
+dataset_archive_course_v3/test/OR money/2000_e28366b0fdae1cfa.jpg
+dataset_archive_course_v3/test/OR money/2000_e44d2f9bc43ec423.jpg
+dataset_archive_course_v3/test/OR money/2000_eaf2613321b79a8e.jpg
+dataset_archive_course_v3/test/OR money/200_57fbf1a862e6bdb9.jpg
+dataset_archive_course_v3/test/OR money/500_09a7329f2b98b880.jpg
+dataset_archive_course_v3/test/OR money/500_12494e6e0f58053b.jpg
+dataset_archive_course_v3/test/OR money/500_1f18e8e8b591f522.jpg
+dataset_archive_course_v3/test/OR money/500_20bf6eabaa068884.jpg
+dataset_archive_course_v3/test/OR money/500_3ae3a6053d156510.jpg
+dataset_archive_course_v3/test/OR money/500_477c02d57f095442.jpg
+dataset_archive_course_v3/test/OR money/500_88ca00ccfea95b1e.jpg
+dataset_archive_course_v3/test/OR money/500_a0d221f9a6633765.jpg
+dataset_archive_course_v3/test/OR money/500_ac325e7d5d387aaa.jpg
+dataset_archive_course_v3/test/OR money/500_eb6ddf0832776915.jpg
+dataset_archive_course_v3/test/OR money/500_f7c06d6f61439f82.jpg
+dataset_archive_course_v3/test/fake money/100_4b6f91bfcd036823.png
+dataset_archive_course_v3/test/fake money/10_7aced8b033e23ed4.jpeg
+dataset_archive_course_v3/test/fake money/2000_127e3dca4cb3a7c9.png
+dataset_archive_course_v3/test/fake money/2000_166df5242a97068c.jpg
+dataset_archive_course_v3/test/fake money/2000_26369bccb1b9df38.png
+dataset_archive_course_v3/test/fake money/2000_64e4be101b99f1cb.png
+dataset_archive_course_v3/test/fake money/2000_6d6d47a817d82967.png
+dataset_archive_course_v3/test/fake money/2000_6ed5ae16eb6d0ce8.png
+dataset_archive_course_v3/test/fake money/2000_6fc7d551e6f18f99.png
+dataset_archive_course_v3/test/fake money/2000_9e65100c87d37d39.png
+dataset_archive_course_v3/test/fake money/2000_adb69cf5226c8af1.png
+dataset_archive_course_v3/test/fake money/2000_d6a5d79aa84462dc.png
+dataset_archive_course_v3/test/fake money/2000_e4af00e1c801f889.png
+dataset_archive_course_v3/test/fake money/500_12ede66445aa3822.jpg
+dataset_archive_course_v3/test/fake money/500_208cd4dbd657ca65.jpg
+dataset_archive_course_v3/test/fake money/500_34e56c3abc9ef0d9.jpg
+dataset_archive_course_v3/test/fake money/500_3d95eb6e9b9eaeb0.jpg
+dataset_archive_course_v3/test/fake money/500_50e8102ca2053450.jpg
+dataset_archive_course_v3/test/fake money/500_519710e042c71ba4.jpg
+dataset_archive_course_v3/test/fake money/500_794608e5239498a4.jpg
+dataset_archive_course_v3/test/fake money/500_8fde4d7ab04de112.jpg
+dataset_archive_course_v3/test/fake money/500_92c7017763de5a1b.jpg
+dataset_archive_course_v3/test/fake money/500_c8ec7e37f9739637.jpg
+dataset_archive_course_v3/test/fake money/500_d6d42f3f343a52b2.jpg
+dataset_archive_course_v3/test/not a banknote/headphone_image_0004.jpg
+dataset_archive_course_v3/test/not a banknote/headphone_image_0024.jpg
+dataset_archive_course_v3/test/not a banknote/wrench_image_0012.jpg
+dataset_archive_course_v3/test/not a banknote/wrench_image_0033.jpg
+dataset_archive_course_v3/train/OR money/100_55b60517387b448b.jpg
+dataset_archive_course_v3/train/OR money/100_744c2ee7e2009f1a.jpg
+dataset_archive_course_v3/train/OR money/100_7b1b73739d75ff41.jpg
+dataset_archive_course_v3/train/OR money/100_a28e640afd13c787.jpg
+dataset_archive_course_v3/train/OR money/10_1fa2e0dc4cdfd936.jpg
+dataset_archive_course_v3/train/OR money/10_9b1ec45648e42474.jpg
+dataset_archive_course_v3/train/OR money/2000_0b35c9002a0b725d.jpg
+dataset_archive_course_v3/train/OR money/2000_0e23b86ed03942ce.jpg
+dataset_archive_course_v3/train/OR money/2000_1249452075187088.jpg
+dataset_archive_course_v3/train/OR money/2000_148ab5ab1bc155e4.jpg
+dataset_archive_course_v3/train/OR money/2000_1965f285e65d64af.jpg
+dataset_archive_course_v3/train/OR money/2000_1f9cf10b16e5928c.jpg
+dataset_archive_course_v3/train/OR money/2000_209337310b3ae04a.jpg
+dataset_archive_course_v3/train/OR money/2000_28d11c7c7e463b95.jpg
+dataset_archive_course_v3/train/OR money/2000_300e0f6664fceb3f.jpg
+dataset_archive_course_v3/train/OR money/2000_30301802ff8cc3ce.jpg
+dataset_archive_course_v3/train/OR money/2000_3644fbc97dfb6db2.jpg
+dataset_archive_course_v3/train/OR money/2000_398a2cafa600bf9d.jpg
+dataset_archive_course_v3/train/OR money/2000_4346faa351a4a723.jpg
+dataset_archive_course_v3/train/OR money/2000_496a90dbd493e92a.jpg
+dataset_archive_course_v3/train/OR money/2000_4aee692551453158.jpg
+dataset_archive_course_v3/train/OR money/2000_4b7fa01624b60b5d.jpg
+dataset_archive_course_v3/train/OR money/2000_5042cd95f273340c.jpg
+dataset_archive_course_v3/train/OR money/2000_5384d284ff8c1f65.jpg
+dataset_archive_course_v3/train/OR money/2000_54c261b15222c767.jpg
+dataset_archive_course_v3/train/OR money/2000_5b81595467ee1348.jpg
+dataset_archive_course_v3/train/OR money/2000_6ce2de9d3eebebe4.jpg
+dataset_archive_course_v3/train/OR money/2000_6efda4cb4ce2019f.jpg
+dataset_archive_course_v3/train/OR money/2000_70b24f833855c13a.jpg
+dataset_archive_course_v3/train/OR money/2000_7fe98d1e5ac16abc.jpg
+dataset_archive_course_v3/train/OR money/2000_8149f2089f02126b.jpg
+dataset_archive_course_v3/train/OR money/2000_8df6990c1badc1f4.jpg
+dataset_archive_course_v3/train/OR money/2000_9a411528a49aaeba.jpg
+dataset_archive_course_v3/train/OR money/2000_9d5e1539b0cae787.jpg
+dataset_archive_course_v3/train/OR money/2000_a1b90c6c07c35aad.jpg
+dataset_archive_course_v3/train/OR money/2000_b8ed860610111b4c.jpg
+dataset_archive_course_v3/train/OR money/2000_bee121796367d107.jpg
+dataset_archive_course_v3/train/OR money/2000_c45c27731bb4ca84.jpg
+dataset_archive_course_v3/train/OR money/2000_cd192cff4b6b7163.jpg
+dataset_archive_course_v3/train/OR money/2000_d0108ca361569cf6.jpg
+dataset_archive_course_v3/train/OR money/2000_e3afb154b4537ecb.jpg
+dataset_archive_course_v3/train/OR money/2000_fb02cdeb9ffab506.jpg
+dataset_archive_course_v3/train/OR money/200_1f86adf3eeb8be3f.jpg
+dataset_archive_course_v3/train/OR money/200_429e55b1883f319d.jpg
+dataset_archive_course_v3/train/OR money/20_289f8dfa391fe55c.jpg
+dataset_archive_course_v3/train/OR money/20_34c36bc0d8513879.jpg
+dataset_archive_course_v3/train/OR money/500_02da0cf552163347.jpg
+dataset_archive_course_v3/train/OR money/500_0aa16f8dfc75cc42.jpg
+dataset_archive_course_v3/train/OR money/500_24ae6fe4b70e6076.jpg
+dataset_archive_course_v3/train/OR money/500_27178db9789481cf.jpg
+dataset_archive_course_v3/train/OR money/500_2fce634fc6a4da2b.jpg
+dataset_archive_course_v3/train/OR money/500_3347bf4fa4b1836d.jpg
+dataset_archive_course_v3/train/OR money/500_36719d3e3ec6b119.jpg
+dataset_archive_course_v3/train/OR money/500_47465742cfd64d3e.jpg
+dataset_archive_course_v3/train/OR money/500_4dfbb2403269f908.jpg
+dataset_archive_course_v3/train/OR money/500_4eaff38736da728f.jpg
+dataset_archive_course_v3/train/OR money/500_52a7d0c470e375b2.jpg
+dataset_archive_course_v3/train/OR money/500_5642c25a9b3d320a.jpg
+dataset_archive_course_v3/train/OR money/500_5ab724fccd2f8613.jpg
+dataset_archive_course_v3/train/OR money/500_5fee7ab003e05430.jpg
+dataset_archive_course_v3/train/OR money/500_638c746ca1259a20.jpg
+dataset_archive_course_v3/train/OR money/500_6e9147731c7b226e.jpg
+dataset_archive_course_v3/train/OR money/500_8402d783ee4cefda.jpg
+dataset_archive_course_v3/train/OR money/500_8665d5694b38ef9a.jpg
+dataset_archive_course_v3/train/OR money/500_8955637a0940e965.jpg
+dataset_archive_course_v3/train/OR money/500_94b7979470e56041.jpg
+dataset_archive_course_v3/train/OR money/500_968558302d8db188.jpg
+dataset_archive_course_v3/train/OR money/500_9a7b50bd8273b057.jpg
+dataset_archive_course_v3/train/OR money/500_a1757fa3f018a005.jpg
+dataset_archive_course_v3/train/OR money/500_aeb70591a5d773d2.jpg
+dataset_archive_course_v3/train/OR money/500_b151f9713a7b82a8.jpg
+dataset_archive_course_v3/train/OR money/500_c22e019c2ca1951f.jpg
+dataset_archive_course_v3/train/OR money/500_c944d45bc3c12f4c.jpg
+dataset_archive_course_v3/train/OR money/500_ce0331a4987f68d3.jpg
+dataset_archive_course_v3/train/OR money/500_e08450b38089a747.jpg
+dataset_archive_course_v3/train/OR money/500_ea13c62e1429ddf7.jpg
+dataset_archive_course_v3/train/OR money/500_ea4d20d7e71ba0c3.jpg
+dataset_archive_course_v3/train/OR money/500_ebabb45d036da249.jpg
+dataset_archive_course_v3/train/OR money/500_ebf32ef9f440bd7e.jpg
+dataset_archive_course_v3/train/OR money/500_eff984f999ecc673.jpg
+dataset_archive_course_v3/train/OR money/500_f28c4b0d59456694.jpg
+dataset_archive_course_v3/train/OR money/500_f4d94b8538f0c08e.jpg
+dataset_archive_course_v3/train/fake money/100_32930e5e224a6ac0.png
+dataset_archive_course_v3/train/fake money/100_62e96fa3a52b9bab.jpeg
+dataset_archive_course_v3/train/fake money/100_8655d4b4b64de3cd.png
+dataset_archive_course_v3/train/fake money/100_d8c0cd7698ea9e32.jpeg
+dataset_archive_course_v3/train/fake money/10_3013738dc9732936.jpeg
+dataset_archive_course_v3/train/fake money/10_4918e7d358e678d2.jpeg
+dataset_archive_course_v3/train/fake money/2000_1128c48f8e4e1c5a.png
+dataset_archive_course_v3/train/fake money/2000_2cff0590d3e38921.png
+dataset_archive_course_v3/train/fake money/2000_43d366933f661aff.png
+dataset_archive_course_v3/train/fake money/2000_4496f00506804301.png
+dataset_archive_course_v3/train/fake money/2000_4f6166be14458202.png
+dataset_archive_course_v3/train/fake money/2000_507759653bdfaf55.png
+dataset_archive_course_v3/train/fake money/2000_60455043bab6f15d.png
+dataset_archive_course_v3/train/fake money/2000_72216f66f3db83b1.png
+dataset_archive_course_v3/train/fake money/2000_72924f797859b833.png
+dataset_archive_course_v3/train/fake money/2000_7d5fd0731c70d737.png
+dataset_archive_course_v3/train/fake money/2000_7d75be9a22c79c0d.png
+dataset_archive_course_v3/train/fake money/2000_7ea185c2fc8b7d7e.png
+dataset_archive_course_v3/train/fake money/2000_923d97ddfcac2aed.png
+dataset_archive_course_v3/train/fake money/2000_98c9a5173772ec99.png
+dataset_archive_course_v3/train/fake money/2000_99cdd23ffe5135c1.png
+dataset_archive_course_v3/train/fake money/2000_a05b46f5d0605eef.png
+dataset_archive_course_v3/train/fake money/2000_a1c865ee284b3224.png
+dataset_archive_course_v3/train/fake money/2000_a2192d626a9ee700.png
+dataset_archive_course_v3/train/fake money/2000_a636efcbc5bdf498.png
+dataset_archive_course_v3/train/fake money/2000_a8c1dd8c8a624cf0.png
+dataset_archive_course_v3/train/fake money/2000_acf81f8e2116b5b5.png
+dataset_archive_course_v3/train/fake money/2000_ad7f553a67c1622a.png
+dataset_archive_course_v3/train/fake money/2000_ae5e3dc31c13a9ac.png
+dataset_archive_course_v3/train/fake money/2000_c3ddf51f7fde9e0a.png
+dataset_archive_course_v3/train/fake money/2000_c477f9e64951dc73.png
+dataset_archive_course_v3/train/fake money/2000_caead489d3df9f76.png
+dataset_archive_course_v3/train/fake money/2000_d44fc926c8d5a8fc.png
+dataset_archive_course_v3/train/fake money/2000_d535e55d0fc0b942.png
+dataset_archive_course_v3/train/fake money/2000_d8c29b9fc3fa141d.png
+dataset_archive_course_v3/train/fake money/2000_dc3b063ccc2871d8.png
+dataset_archive_course_v3/train/fake money/2000_debedc04bf429cbb.png
+dataset_archive_course_v3/train/fake money/2000_e8e7971ccdd87fe4.png
+dataset_archive_course_v3/train/fake money/2000_f652b7f1a649e79d.png
+dataset_archive_course_v3/train/fake money/2000_fa2c7548f4bc31de.png
+dataset_archive_course_v3/train/fake money/2000_fa6bdbb5fa64db66.png
+dataset_archive_course_v3/train/fake money/2000_fae47d9827972e8f.png
+dataset_archive_course_v3/train/fake money/200_88a87750f54a9d74.png
+dataset_archive_course_v3/train/fake money/200_cdd6aeb0843d2e25.jpeg
+dataset_archive_course_v3/train/fake money/200_e8f66abcbec0b694.png
+dataset_archive_course_v3/train/fake money/20_31915758d6c41d64.jpeg
+dataset_archive_course_v3/train/fake money/20_8fbf8fc7a91a0ad9.jpeg
+dataset_archive_course_v3/train/fake money/500_0ab3c888d2ee7a67.jpg
+dataset_archive_course_v3/train/fake money/500_10fdf1bedda74e86.jpg
+dataset_archive_course_v3/train/fake money/500_123ae438a634d7f5.jpg
+dataset_archive_course_v3/train/fake money/500_24880d59f299f61f.jpeg
+dataset_archive_course_v3/train/fake money/500_2511aacbeaef9a99.jpg
+dataset_archive_course_v3/train/fake money/500_2792e23b8617cb4c.jpg
+dataset_archive_course_v3/train/fake money/500_2ca940b910fbcbd5.jpg
+dataset_archive_course_v3/train/fake money/500_3080427306d87fd6.jpg
+dataset_archive_course_v3/train/fake money/500_3612554d0921ab1b.jpg
+dataset_archive_course_v3/train/fake money/500_379ad9cf043e8089.jpg
+dataset_archive_course_v3/train/fake money/500_450311d5703a30a3.jpg
+dataset_archive_course_v3/train/fake money/500_4f4bce2bc381829d.jpg
+dataset_archive_course_v3/train/fake money/500_5abad1433f473325.jpg
+dataset_archive_course_v3/train/fake money/500_77dddea6733aac09.jpg
+dataset_archive_course_v3/train/fake money/500_7847fd4f7aca7625.jpg
+dataset_archive_course_v3/train/fake money/500_7ae66e699d306f40.jpg
+dataset_archive_course_v3/train/fake money/500_7bca5a086a156055.jpg
+dataset_archive_course_v3/train/fake money/500_83791a9c1cfbf983.jpg
+dataset_archive_course_v3/train/fake money/500_84a39417190f438b.jpg
+dataset_archive_course_v3/train/fake money/500_864492f66f41d90e.jpg
+dataset_archive_course_v3/train/fake money/500_9334ecfc0e857d65.jpg
+dataset_archive_course_v3/train/fake money/500_957ff2c2e06d7ff9.jpg
+dataset_archive_course_v3/train/fake money/500_9ac8f9762a17d187.jpg
+dataset_archive_course_v3/train/fake money/500_9c3354f674725e4a.jpg
+dataset_archive_course_v3/train/fake money/500_9d7b96489991f6ef.jpg
+dataset_archive_course_v3/train/fake money/500_9fae76d81c6582b1.jpg
+dataset_archive_course_v3/train/fake money/500_adca9d69ffefe367.jpg
+dataset_archive_course_v3/train/fake money/500_af665e407288e296.jpg
+dataset_archive_course_v3/train/fake money/500_b158b350192248ae.jpg
+dataset_archive_course_v3/train/fake money/500_b96c99b793de7fb3.jpg
+dataset_archive_course_v3/train/fake money/500_c17df657f91d31ce.jpg
+dataset_archive_course_v3/train/fake money/500_c6e428ac363a139f.jpg
+dataset_archive_course_v3/train/fake money/500_d8d99970e7c7cb02.jpg
+dataset_archive_course_v3/train/fake money/500_dfb3f32c14f76eaf.avif
+dataset_archive_course_v3/train/fake money/500_f442b9261e99f7ad.jpg
+dataset_archive_course_v3/train/fake money/500_fe6b3b5531089809.jpg
+dataset_archive_course_v3/train/not a banknote/camera_image_0044.jpg
+dataset_archive_course_v3/train/not a banknote/camera_image_0045.jpg
+dataset_archive_course_v3/train/not a banknote/cellphone_image_0002.jpg
+dataset_archive_course_v3/train/not a banknote/cellphone_image_0004.jpg
+dataset_archive_course_v3/train/not a banknote/chair_image_0015.jpg
+dataset_archive_course_v3/train/not a banknote/chair_image_0057.jpg
+dataset_archive_course_v3/train/not a banknote/cup_image_0012.jpg
+dataset_archive_course_v3/train/not a banknote/cup_image_0017.jpg
+dataset_archive_course_v3/train/not a banknote/lamp_image_0027.jpg
+dataset_archive_course_v3/train/not a banknote/lamp_image_0054.jpg
+dataset_archive_course_v3/train/not a banknote/laptop_image_0014.jpg
+dataset_archive_course_v3/train/not a banknote/laptop_image_0037.jpg
+dataset_archive_course_v3/train/not a banknote/pizza_image_0001.jpg
+dataset_archive_course_v3/train/not a banknote/pizza_image_0002.jpg
+dataset_archive_course_v3/train/not a banknote/scissors_image_0004.jpg
+dataset_archive_course_v3/train/not a banknote/scissors_image_0008.jpg
+dataset_archive_course_v3/train/not a banknote/soccer_ball_image_0003.jpg
+dataset_archive_course_v3/train/not a banknote/soccer_ball_image_0005.jpg
+dataset_archive_course_v3/train/not a banknote/stapler_image_0006.jpg
+dataset_archive_course_v3/train/not a banknote/stapler_image_0007.jpg
+dataset_archive_course_v3/train/not a banknote/umbrella_image_0001.jpg
+dataset_archive_course_v3/train/not a banknote/umbrella_image_0070.jpg
+dataset_archive_course_v3/val/OR money/100_757240448cf46788.jpg
+dataset_archive_course_v3/val/OR money/2000_0050208948302fb4.jpg
+dataset_archive_course_v3/val/OR money/2000_017bd2be1c4d46c9.jpg
+dataset_archive_course_v3/val/OR money/2000_286186bf730017ba.jpg
+dataset_archive_course_v3/val/OR money/2000_321202a3be87b839.jpg
+dataset_archive_course_v3/val/OR money/2000_6a05b7c02c750269.jpg
+dataset_archive_course_v3/val/OR money/2000_d63ff608b7369238.jpg
+dataset_archive_course_v3/val/OR money/2000_f6abef398a0f7231.jpg
+dataset_archive_course_v3/val/OR money/2000_f96228663782b8f6.jpg
+dataset_archive_course_v3/val/OR money/500_0098b81c9f1e60da.jpg
+dataset_archive_course_v3/val/OR money/500_1fe04720c4bf77fc.jpg
+dataset_archive_course_v3/val/OR money/500_1fec0b7447716c50.jpg
+dataset_archive_course_v3/val/OR money/500_3052836fe8390eae.jpg
+dataset_archive_course_v3/val/OR money/500_3a748ecda057607e.jpg
+dataset_archive_course_v3/val/OR money/500_4c156b19aad19f12.jpg
+dataset_archive_course_v3/val/OR money/500_57d7b68b40c7c740.jpg
+dataset_archive_course_v3/val/OR money/500_d02c60b56b284f8d.jpg
+dataset_archive_course_v3/val/fake money/100_bd44d8fb942fc45f.jpeg
+dataset_archive_course_v3/val/fake money/2000_16ce7d9605db0f81.png
+dataset_archive_course_v3/val/fake money/2000_3ab1036cfdd05a4d.png
+dataset_archive_course_v3/val/fake money/2000_5e305c0e53634c34.png
+dataset_archive_course_v3/val/fake money/2000_6bb9323d4dc64e33.png
+dataset_archive_course_v3/val/fake money/2000_718e7a02f3aeb920.png
+dataset_archive_course_v3/val/fake money/2000_80e4f8543295a066.png
+dataset_archive_course_v3/val/fake money/2000_e1ace0c440e4751b.jpg
+dataset_archive_course_v3/val/fake money/2000_eaa8f8ef82f1b7a2.png
+dataset_archive_course_v3/val/fake money/500_4b6cec7f74e7d4b6.jpg
+dataset_archive_course_v3/val/fake money/500_544976927b1a2a19.jpg
+dataset_archive_course_v3/val/fake money/500_58634fc2149375c4.jpg
+dataset_archive_course_v3/val/fake money/500_a61a5a2c23b6b0bb.jpg
+dataset_archive_course_v3/val/fake money/500_aa21ca4815fea3fa.jpg
+dataset_archive_course_v3/val/fake money/500_b2b34ae3ea196a8b.jpg
+dataset_archive_course_v3/val/fake money/500_ea5a4f6f3e60e415.jpg
+dataset_archive_course_v3/val/fake money/500_fef0a357d500514f.jpg
+dataset_archive_course_v3/val/not a banknote/binocular_image_0018.jpg
+dataset_archive_course_v3/val/not a banknote/binocular_image_0026.jpg
+dataset_archive_course_v3/val/not a banknote/watch_image_0002.jpg
+dataset_archive_course_v3/val/not a banknote/watch_image_0147.jpg
+dataset_archive_pilot_v2/test/fake money/2000_37e2bd6dd602b4de.png
+dataset_issuer_review_v1/009e002504f63efb.png
+dataset_issuer_review_v1/03e0ab0f08cca64a.jpg
+dataset_issuer_review_v1/05ee907f83a8b3dd.jpg
+dataset_issuer_review_v1/0c7eef8fc7db9614.jpg
+dataset_issuer_review_v1/11fcd4bb70814a9b.jpg
+dataset_issuer_review_v1/142aea881ab37575.jpg
+dataset_issuer_review_v1/167fda6c6a73405e.jpg
+dataset_issuer_review_v1/21bff17ba215cd8f.jpg
+dataset_issuer_review_v1/22fae0358c073985.jpg
+dataset_issuer_review_v1/2408dbf15f6afc72.jpg
+dataset_issuer_review_v1/2c41305ceb52c056.png
+dataset_issuer_review_v1/37a1ec452c4c9b85.jpg
+dataset_issuer_review_v1/3b04cc60fbf9dca4.jpg
+dataset_issuer_review_v1/42bdcadfb8170a92.jpg
+dataset_issuer_review_v1/4596d69b53f81909.jpg
+dataset_issuer_review_v1/59dd2c06f262cb96.png
+dataset_issuer_review_v1/63a2a56bbe43ec6d.jpg
+dataset_issuer_review_v1/642547ae341ecc8e.jpg
+dataset_issuer_review_v1/6fd2231e440d077d.jpg
+dataset_issuer_review_v1/705b357e7765ebd1.jpg
+dataset_issuer_review_v1/71dc1711d0e63fa5.jpg
+dataset_issuer_review_v1/7d7005ae49b032ad.jpg
+dataset_issuer_review_v1/7feb7b8e95b46b02.jpg
+dataset_issuer_review_v1/85c78eb54ab6dfdb.jpg
+dataset_issuer_review_v1/91571e1956b3a85c.png
+dataset_issuer_review_v1/9ca5e6a9db306a41.png
+dataset_issuer_review_v1/a279459d9142b8d3.png
+dataset_issuer_review_v1/a408142ac5a66413.jpg
+dataset_issuer_review_v1/a9284ef01204e0d4.png
+dataset_issuer_review_v1/aae8a9a908d5fb19.jpg
+dataset_issuer_review_v1/aeff953904d74551.jpg
+dataset_issuer_review_v1/b4d7c40fac8c1441.jpg
+dataset_issuer_review_v1/b94f8d09e3a6a685.jpg
+dataset_issuer_review_v1/b96c7328e2220f5f.png
+dataset_issuer_review_v1/ba87ed02f503abb5.png
+dataset_issuer_review_v1/bf3db6c7a629c001.png
+dataset_issuer_review_v1/c063cc0b1164968a.jpg
+dataset_issuer_review_v1/c1cd80847e940843.png
+dataset_issuer_review_v1/ca22479ba7fa7e73.jpg
+dataset_issuer_review_v1/d886c8a044614dc0.jpg
+dataset_issuer_review_v1/e08e9c7b65cb2989.jpg
+dataset_issuer_review_v1/e2ad299a6af63845.jpg
+dataset_issuer_review_v1/efe7f7e9a5f15dc6.jpg
+dataset_issuer_review_v1/f26373c6bbd1d7b8.png
+dataset_issuer_review_v1/f522e4b54fe2c415.jpg
+dataset_issuer_review_v1/fc12003d047f5143.jpg
+dataset_issuer_review_v1/ff2988148537eb12.png
+dataset_issuer_review_v1/ff3e3d1fb2b9e52c.jpg
+dataset_issuer_review_v1/manifest.json
+docs/review_100_rupees.png
+docs/review_2000_issuer_alert.png
+runs/course_models_archive_v3/cnn/seed_42/history.json
+runs/course_models_archive_v3/cnn/seed_43/history.json
+runs/course_models_archive_v3/cnn/seed_44/history.json
+runs/course_models_archive_v3/comparison.csv
+runs/course_models_archive_v3/comparison.json
+runs/course_models_archive_v3/comparison.png
+runs/course_models_archive_v3/confusion_matrices.png
+runs/course_models_archive_v3/dinov3_vits16/seed_42/history.json
+runs/course_models_archive_v3/dinov3_vits16/seed_43/history.json
+runs/course_models_archive_v3/dinov3_vits16/seed_44/history.json
+runs/course_models_archive_v3/efficientnet_v2_s/seed_42/best.pt
+runs/course_models_archive_v3/efficientnet_v2_s/seed_42/history.json
+runs/course_models_archive_v3/efficientnet_v2_s/seed_43/history.json
+runs/course_models_archive_v3/efficientnet_v2_s/seed_44/history.json
+runs/course_models_archive_v3/rank_check/fixed_checkpoint_test.json
+runs/course_models_archive_v3/rank_check/original_four_model_run.log
+runs/course_models_archive_v3/resnet18/seed_42/history.json
+runs/course_models_archive_v3/resnet18/seed_43/history.json
+runs/course_models_archive_v3/resnet18/seed_44/history.json
+runs/issuer_review_v1/per_photo.csv

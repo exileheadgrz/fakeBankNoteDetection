@@ -1,0 +1,13 @@
+model,training,input,n_seeds,accuracy_pct,fake_recall_pct,real_false_alarm_pct
+efficientnet_v2_s,archived,square,3,90.566,93.056,13.333
+efficientnet_v2_s,archived,rectangle,3,88.05,94.444,20.0
+efficientnet_v2_s,archived,native_rgb,3,76.73,95.833,44.0
+efficientnet_v2_s,archived,square_bgr_norm,3,81.761,80.556,16.0
+efficientnet_v2_s,archived,square_rgb_unit,3,86.792,95.833,20.0
+efficientnet_v2_s,archived,square_rgb255,3,64.151,77.778,38.667
+efficientnet_v2_s,archived,raw,3,52.83,34.722,21.333
+resnet18,archived,square,3,86.792,88.889,17.333
+resnet18,archived,raw,3,7.547,0.0,0.0
+efficientnet_v2_s,refit_no_aug,square,3,89.308,91.667,14.667
+efficientnet_v2_s,refit_no_aug,raw,3,47.17,44.444,38.667
+efficientnet_v2_s,refit_aug,square,1,88.679,91.667,16.0

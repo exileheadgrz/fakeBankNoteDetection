@@ -1,0 +1,27 @@
+Preprocessing ablation on the banknote coursework dataset
+
+Evaluation
+The same 53 test images (24 Fake, 25 Real, 4 Not a Banknote) were used throughout. Mean percentages in classification_summary.csv are over seeds 42, 43 and 44, except the matched brightness/contrast check (42 only). This is a post-hoc sensitivity study on previously examined data. The labels are provisional.
+
+Input modes and archived models
+square: resize the long side to 224 with the archived antialiased bilinear implementation, keep aspect ratio, convert to RGB [0,1], apply ImageNet normalization and centre on the 224 square with zero padding in normalized space.
+rectangle: identical resized RGB pixels, no border.
+native_rgb: same RGB scaling and normalization, retain the original width and height, no border.
+square_bgr_norm: keep the square workflow but supply BGR to the same channel normalization. square_rgb_unit: square RGB input in [0,1], omitting ImageNet normalization. square_rgb255: square RGB input in [0,255], omitting both scaling and normalization. These square controls use zero padding in tensor space.
+raw: original width and height, BGR float32 in [0,255], no normalization, resizing, border or random augmentation. PyTorch still needs a channel-first floating-point tensor. There is no crop. The same input recipe was applied to an image and its edited counterpart.
+The square baseline reproduced every archived test class decision for the six EfficientNetV2-S and ResNet18 checkpoints and all 48 seed-42 EfficientNet review decisions. Reruns used CPU evaluation. Existing checkpoints were reused for the input-only comparisons. Frozen EfficientNet/ResNet feature tensors were verified identical across seeds before sharing their feature vectors. For very large images, only the early, local convolution stages were tiled with an overlapping halo. Later stages and pooling use the complete feature map. Direct and tiled logits matched on a 1600 x 1200 test image. Earlier runs' other weights were read from the original project archive; the Git submission includes the one EfficientNet seed-42 checkpoint.
+
+Head refitting and augmentation
+refit_no_aug: new randomly initialized EfficientNet classification heads were trained on 187 training images and selected on 38 validation images; the ImageNet backbone remained frozen as in the coursework. Each head used Adam 0.001, batch size 32, the same shuffled sample order for a given seed, at most 30 epochs and patience 8. The minimum-validation-loss head was used on test. The raw and square fits both omitted brightness and contrast changes; their fixed feature vectors could therefore be computed once per image. These results describe head-only training with the original optimization settings.
+refit_aug: one paired seed-42 control recomputed square training features after random brightness and contrast edits (each 0.9 to 1.1), using the same validation procedure as refit_no_aug. Both square controls reached 47/53 and the same confusion matrix. The historical seed-42 checkpoint reached 48/53; it was a separate training run. A single seed with equal counts cannot establish that augmentation is always unnecessary.
+
+Review queue and local explanations
+For the 48 previously selected issuer-review images, the OCR text, mismatch status and source image were held fixed. Only the classifier scores and resulting queues were recomputed. Among Real predictions, the queues used ascending P(Real) or issuer mismatch first and then ascending P(Real); filename broke ties. With seed 42 the archived square classifier made 2 Fake-to-Real misses, of which the five-slot queues found 1 and 2. With raw inputs it made 14 such misses, of which the same queues found 3 and 4. Saturated and tied probabilities make raw confidence rankings particularly sensitive to the filename tiebreaker.
+The 100-rupee case used the same source OCR box in every condition (218,103,778,183), verified by Apple Vision on the original image. The Gaussian blur had sigma 8 source pixels. The archived square input gave P(Fake) 35.88% before and 27.85% after; raw gave 0% in both float32 softmax outputs, with widely separated logits. The local sensitivity comparison requires a consistent recipe for both images. No manual authenticity claim follows from the overlay.
+For the two single-case CAM comparisons, both explained the Fake logit at EfficientNet features[3]. Blocks on the square input used the notebook's 16-pixel grid and excluded padding. In native coordinates the same physical regions were mapped onto the full image for the comparison. Both used ImageNet mean colour as replacement, converted to the respective input units, and scored Fake probability over 0 to 100% in 10% steps. AUCs with saturated probabilities should not be interpreted as evidence of generally superior explanations. The figure displays the original field of view with each heatmap normalized separately.
+The current small CNN has a flattened 2048-feature input to its first linear layer. The selected DINOv3 implementation requires whole 16-pixel patches. Both failed on the unmodified 198 x 82 test image. The no-preprocessing test therefore does not give a four-model ranking.
+
+Files
+classification_summary.csv: class metrics by model, training mode and input mode.
+case_cam.png: heatmaps for the square and raw 100-rupee input.
+experiment_details.zip: per-image measurements, per-seed metrics, case scores, review queues and the analysis scripts.
